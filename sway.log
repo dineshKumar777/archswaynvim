@@ -1,0 +1,2131 @@
+00:00:00.000 [INFO] [sway/main.c:347] Sway version 1.6.1
+00:00:00.000 [INFO] [sway/main.c:348] wlroots version 0.14.0
+00:00:00.003 [INFO] [sway/main.c:155] Linux dinesh-pc 5.12.15-arch1-1 #1 SMP PREEMPT Wed, 07 Jul 2021 23:35:29 +0000 x86_64 GNU/Linux
+00:00:00.003 [INFO] [sway/main.c:171] Contents of /etc/lsb-release:
+00:00:00.003 [INFO] [sway/main.c:155] LSB_VERSION=1.4
+00:00:00.003 [INFO] [sway/main.c:155] DISTRIB_ID=EndeavourOS
+00:00:00.003 [INFO] [sway/main.c:155] DISTRIB_RELEASE=rolling
+00:00:00.003 [INFO] [sway/main.c:155] DISTRIB_DESCRIPTION="EndeavourOS Linux"
+00:00:00.003 [INFO] [sway/main.c:155] DISTRIB_CODENAME=rolling
+00:00:00.004 [INFO] [sway/main.c:171] Contents of /etc/os-release:
+00:00:00.004 [INFO] [sway/main.c:155] NAME="EndeavourOS"
+00:00:00.004 [INFO] [sway/main.c:155] PRETTY_NAME="EndeavourOS"
+00:00:00.004 [INFO] [sway/main.c:155] ID=endeavouros
+00:00:00.004 [INFO] [sway/main.c:155] ID_LIKE=arch
+00:00:00.004 [INFO] [sway/main.c:155] BUILD_ID=2021.04.17
+00:00:00.004 [INFO] [sway/main.c:155] ANSI_COLOR="38;2;23;147;209"
+00:00:00.004 [INFO] [sway/main.c:155] HOME_URL="https://endeavouros.com"
+00:00:00.004 [INFO] [sway/main.c:155] DOCUMENTATION_URL="https://endeavouros.com/wiki/"
+00:00:00.004 [INFO] [sway/main.c:155] SUPPORT_URL="https://forum.endeavouros.com"
+00:00:00.004 [INFO] [sway/main.c:155] BUG_REPORT_URL="https://github.com/endeavouros-team"
+00:00:00.004 [INFO] [sway/main.c:155] LOGO=endeavouros
+00:00:00.004 [INFO] [sway/main.c:143] LD_LIBRARY_PATH=
+00:00:00.004 [INFO] [sway/main.c:143] LD_PRELOAD=
+00:00:00.004 [INFO] [sway/main.c:143] PATH=/home/dinesh/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+00:00:00.004 [INFO] [sway/main.c:143] SWAYSOCK=/run/user/1000/sway-ipc.1000.802.sock
+00:00:00.004 [DEBUG] [sway/server.c:47] Preparing Wayland server initialization
+00:00:00.004 [INFO] [wlr] [backend/wayland/backend.c:383] Creating wayland backend
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: wl_shm v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: wl_drm v2
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwp_linux_dmabuf_v1 v3
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: wl_compositor v4
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: wl_subcompositor v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: wl_data_device_manager v3
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwlr_gamma_control_manager_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zxdg_output_manager_v1 v3
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: org_kde_kwin_idle v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwp_idle_inhibit_manager_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwlr_layer_shell_v1 v4
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: xdg_wm_base v2
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwp_tablet_manager_v2 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: org_kde_kwin_server_decoration_manager v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zxdg_decoration_manager_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwp_relative_pointer_manager_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwp_pointer_constraints_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: wp_presentation v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwlr_output_manager_v1 v2
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwlr_output_power_manager_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwp_input_method_manager_v2 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwp_text_input_manager_v3 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwlr_foreign_toplevel_manager_v1 v3
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwlr_export_dmabuf_manager_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwlr_screencopy_manager_v1 v3
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwlr_data_control_manager_v1 v2
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwp_primary_selection_device_manager_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: wp_viewporter v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zxdg_exporter_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zxdg_importer_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zxdg_exporter_v2 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zxdg_importer_v2 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwp_virtual_keyboard_manager_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwlr_virtual_pointer_manager_v1 v2
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwlr_input_inhibit_manager_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwp_keyboard_shortcuts_inhibit_manager_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: wl_seat v7
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: zwp_pointer_gestures_v1 v1
+00:00:00.005 [DEBUG] [wlr] [backend/wayland/backend.c:208] Remote wayland global: wl_output v3
+00:00:00.006 [DEBUG] [wlr] [backend/wayland/seat.c:754] seat 0x558111378060 offered pointer
+00:00:00.006 [DEBUG] [wlr] [backend/wayland/seat.c:791] seat 0x558111378060 offered keyboard
+00:00:00.006 [DEBUG] [wlr] [backend/wayland/backend.c:437] Opening DRM render node /dev/dri/renderD128
+00:00:00.019 [INFO] [wlr] [render/egl.c:312] Using EGL 1.4
+00:00:00.019 [INFO] [wlr] [render/egl.c:313] Supported EGL client extensions: EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_EXT_platform_base EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_EXT_platform_device EGL_EXT_platform_wayland EGL_KHR_platform_wayland EGL_EXT_platform_x11 EGL_KHR_platform_x11 EGL_MESA_platform_xcb EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+00:00:00.019 [INFO] [wlr] [render/egl.c:314] Supported EGL display extensions: EGL_ANDROID_blob_cache EGL_ANDROID_native_fence_sync EGL_EXT_buffer_age EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_KHR_config_attribs EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_WL_bind_wayland_display 
+00:00:00.019 [INFO] [wlr] [render/egl.c:316] Supported EGL device extensions: EGL_EXT_device_drm
+00:00:00.019 [INFO] [wlr] [render/egl.c:318] EGL vendor: Mesa Project
+00:00:00.019 [DEBUG] [wlr] [render/egl.c:149] Supported DMA-BUF formats: AB4H XB4H AR30 XR30 AB30 XB30 AR24 AB24 XR24 XB24 AR15 RG16 R8   R16  GR88 GR32 YUV9 YU11 YU12 YU16 YU24 YVU9 YV11 YV12 YV16 YV24 NV12 P010 P012 P016 NV16 AYUV XYUV YUYV UYVY 
+00:00:00.019 [DEBUG] [wlr] [render/egl.c:150] EGL DMA-BUF format modifiers supported
+00:00:00.021 [INFO] [wlr] [render/gles2/renderer.c:784] Creating GLES2 renderer
+00:00:00.021 [INFO] [wlr] [render/gles2/renderer.c:785] Using OpenGL ES 3.1 Mesa 21.1.4
+00:00:00.021 [INFO] [wlr] [render/gles2/renderer.c:786] GL vendor: Intel Open Source Technology Center
+00:00:00.021 [INFO] [wlr] [render/gles2/renderer.c:787] GL renderer: Mesa DRI Intel(R) HD Graphics 4600 (HSW GT2)
+00:00:00.021 [INFO] [wlr] [render/gles2/renderer.c:788] Supported GLES2 extensions: GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_texture_filter_anisotropic GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_format_BGRA8888 GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_mapbuffer GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_stencil8 GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_EXT_draw_instanced GL_EXT_texture_sRGB_decode GL_OES_EGL_image GL_OES_depth_texture GL_OES_packed_depth_stencil GL_EXT_texture_type_2_10_10_10_REV GL_NV_conditional_render GL_OES_get_program_binary GL_APPLE_texture_max_level GL_EXT_discard_framebuffer GL_EXT_read_format_bgra GL_EXT_frag_depth GL_NV_fbo_color_attachments GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_array_object GL_OES_viewport_array GL_ANGLE_pack_reverse_row_order GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_EXT_occlusion_query_boolean GL_EXT_robustness GL_EXT_texture_rg GL_EXT_unpack_subimage GL_NV_draw_buffers GL_NV_read_buffer GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_EXT_draw_buffers GL_EXT_map_buffer_range GL_KHR_debug GL_KHR_robustness GL_NV_pixel_buffer_object GL_OES_depth_texture_cube_map GL_OES_required_internalformat GL_OES_surfaceless_context GL_EXT_color_buffer_float GL_EXT_sRGB_write_control GL_EXT_separate_shader_objects GL_EXT_shader_group_vote GL_EXT_shader_implicit_conversions GL_EXT_shader_integer_mix GL_EXT_tessellation_point_size GL_EXT_tessellation_shader GL_INTEL_performance_query GL_EXT_base_instance GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_copy_image GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_gpu_shader5 GL_EXT_polygon_offset_clamp GL_EXT_primitive_bounding_box GL_EXT_render_snorm GL_EXT_shader_io_blocks GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_cube_map_array GL_EXT_texture_norm16 GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_robust_buffer_access_behavior GL_NV_image_formats GL_OES_copy_image GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_gpu_shader5 GL_OES_primitive_bounding_box GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_tessellation_point_size GL_OES_tessellation_shader GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_EXT_blend_func_extended GL_EXT_buffer_storage GL_EXT_float_blend GL_EXT_geometry_point_size GL_EXT_geometry_shader GL_EXT_shader_samples_identical GL_EXT_texture_sRGB_R8 GL_KHR_no_error GL_OES_EGL_image_external_essl3 GL_OES_geometry_point_size GL_OES_geometry_shader GL_OES_shader_image_atomic GL_EXT_clip_cull_distance GL_EXT_disjoint_timer_query GL_EXT_texture_compression_s3tc_srgb GL_MESA_shader_integer_functions GL_EXT_clip_control GL_EXT_color_buffer_half_float GL_EXT_texture_compression_bptc GL_KHR_parallel_shader_compile GL_EXT_EGL_image_storage GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_texture_shadow_lod GL_INTEL_blackhole_render GL_MESA_framebuffer_flip_y GL_EXT_demote_to_helper_invocation GL_EXT_depth_clamp GL_EXT_texture_query_lod 
+00:00:00.026 [DEBUG] [wlr] [render/allocator.c:30] Trying to create gbm allocator
+00:00:00.030 [DEBUG] [wlr] [render/gbm_allocator.c:196] Created GBM allocator with backend drm
+00:00:00.030 [DEBUG] [wlr] [render/gbm_allocator.c:199] Using DRM node /dev/dri/renderD128
+00:00:00.031 [INFO] [sway/main.c:396] Starting sway version 1.6.1
+00:00:00.031 [DEBUG] [sway/server.c:60] Initializing Wayland server
+00:00:00.031 [DEBUG] [wlr] [types/wlr_idle.c:247] idle manager created
+00:00:00.031 [INFO] [wlr] [wayland] unable to lock lockfile /run/user/1000/wayland-1.lock, maybe another compositor is running
+00:00:00.031 [INFO] [wlr] [backend/noop/backend.c:59] Creating noop backend
+00:00:00.031 [DEBUG] [wlr] [types/wlr_output.c:377] WLR_NO_HARDWARE_CURSORS set, forcing software cursors
+00:00:00.031 [INFO] [wlr] [backend/headless/backend.c:227] Creating headless backend with parent renderer
+00:00:00.031 [DEBUG] [wlr] [render/allocator.c:30] Trying to create gbm allocator
+00:00:00.036 [DEBUG] [wlr] [render/gbm_allocator.c:196] Created GBM allocator with backend drm
+00:00:00.036 [DEBUG] [wlr] [render/gbm_allocator.c:199] Using DRM node /dev/dri/renderD128
+00:00:00.039 [INFO] [sway/config.c:404] Loading config from /home/dinesh/.config/sway/config
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 1: # Config for sway
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 2: #
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 3: # Read `man 5 sway` for a complete reference.
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 4: 
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 5: # user config directory
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 6: include $HOME/.config/sway/config.d/*
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: include $HOME/.config/sway/config.d/*
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: include $HOME/.config/sway/config.d/*
+00:00:00.039 [INFO] [sway/config.c:404] Loading config from /home/dinesh/.config/sway/config.d/application_defaults
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 1: # Assign workspaces
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 2: assign [app_id="firefox"] 2
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: assign [app_id="firefox"] 2
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: assign [app_id="firefox"] 2
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: app_id=firefox
+00:00:00.039 [DEBUG] [sway/commands/assign.c:59] assign: '[app_id="firefox"]' -> '2' added
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 3: for_window [app_id="firefox"] focus
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: for_window [app_id="firefox"] focus
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="firefox"] focus
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: app_id=firefox
+00:00:00.039 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="firefox"]' -> 'focus' added
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 4: 
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 5: assign [class="firefox"] 2
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: assign [class="firefox"] 2
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: assign [class="firefox"] 2
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: class=firefox
+00:00:00.039 [DEBUG] [sway/commands/assign.c:59] assign: '[class="firefox"]' -> '2' added
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 6: for_window [class="firefox"] focus
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: for_window [class="firefox"] focus
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: for_window [class="firefox"] focus
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: class=firefox
+00:00:00.039 [DEBUG] [sway/commands/for_window.c:34] for_window: '[class="firefox"]' -> 'focus' added
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 7: 
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 8: assign [app_id=thunar] 3
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: assign [app_id=thunar] 3
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: assign [app_id=thunar] 3
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: app_id=thunar
+00:00:00.039 [DEBUG] [sway/commands/assign.c:59] assign: '[app_id=thunar]' -> '3' added
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 9: for_window [app_id=thunar] focus
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: for_window [app_id=thunar] focus
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: for_window [app_id=thunar] focus
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: app_id=thunar
+00:00:00.039 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id=thunar]' -> 'focus' added
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 10: 
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 11: assign [class="Telegram"] 4
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: assign [class="Telegram"] 4
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: assign [class="Telegram"] 4
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: class=Telegram
+00:00:00.039 [DEBUG] [sway/commands/assign.c:59] assign: '[class="Telegram"]' -> '4' added
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 12: for_window [class="Telegram"] focus
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: for_window [class="Telegram"] focus
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: for_window [class="Telegram"] focus
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: class=Telegram
+00:00:00.039 [DEBUG] [sway/commands/for_window.c:34] for_window: '[class="Telegram"]' -> 'focus' added
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 13: 
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 14: 
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 15: for_window [app_id="xed"] focus
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: for_window [app_id="xed"] focus
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="xed"] focus
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: app_id=xed
+00:00:00.039 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="xed"]' -> 'focus' added
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 16: 
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 17: 
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 18: # set floating (nontiling)for apps needing it:
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 19: for_window [class="Yad" instance="yad"] floating enable
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: for_window [class="Yad" instance="yad"] floating enable
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: for_window [class="Yad" instance="yad"] floating enable
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: class=Yad
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: instance=yad
+00:00:00.039 [DEBUG] [sway/commands/for_window.c:34] for_window: '[class="Yad" instance="yad"]' -> 'floating enable' added
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 20: for_window [app_id="yad"] floating enable
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: for_window [app_id="yad"] floating enable
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="yad"] floating enable
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: app_id=yad
+00:00:00.039 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="yad"]' -> 'floating enable' added
+00:00:00.039 [DEBUG] [sway/config.c:818] Read line 21: for_window [app_id="blueman-manager"] floating enable,  resize set width 40 ppt height 30 ppt
+00:00:00.039 [INFO] [sway/commands.c:377] Config command: for_window [app_id="blueman-manager"] floating enable,  resize set width 40 ppt height 30 ppt
+00:00:00.039 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="blueman-manager"] floating enable, resize set width 40 ppt height 30 ppt
+00:00:00.039 [DEBUG] [sway/criteria.c:712] Found pair: app_id=blueman-manager
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="blueman-manager"]' -> 'floating enable, resize set width 40 ppt height 30 ppt' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 22: 
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 23: # set floating (nontiling) for special apps:
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 24: for_window [class="Xsane" instance="xsane"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [class="Xsane" instance="xsane"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [class="Xsane" instance="xsane"] floating enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: class=Xsane
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: instance=xsane
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[class="Xsane" instance="xsane"]' -> 'floating enable' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 25: for_window [app_id="pavucontrol" ] floating enable, resize set width 40 ppt height 30 ppt
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [app_id="pavucontrol" ] floating enable, resize set width 40 ppt height 30 ppt
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="pavucontrol" ] floating enable, resize set width 40 ppt height 30 ppt
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: app_id=pavucontrol
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="pavucontrol" ]' -> 'floating enable, resize set width 40 ppt height 30 ppt' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 26: for_window [class="qt5ct" instance="qt5ct"] floating enable, resize set width 60 ppt height 50 ppt
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [class="qt5ct" instance="qt5ct"] floating enable, resize set width 60 ppt height 50 ppt
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [class="qt5ct" instance="qt5ct"] floating enable, resize set width 60 ppt height 50 ppt
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: class=qt5ct
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: instance=qt5ct
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[class="qt5ct" instance="qt5ct"]' -> 'floating enable, resize set width 60 ppt height 50 ppt' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 27: for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: class=Bluetooth-sendto
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: instance=bluetooth-sendto
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[class="Bluetooth-sendto" instance="bluetooth-sendto"]' -> 'floating enable' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 28: for_window [app_id="pamac-manager"] floating enable, resize set width 80 ppt height 70 ppt
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [app_id="pamac-manager"] floating enable, resize set width 80 ppt height 70 ppt
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="pamac-manager"] floating enable, resize set width 80 ppt height 70 ppt
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: app_id=pamac-manager
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="pamac-manager"]' -> 'floating enable, resize set width 80 ppt height 70 ppt' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 29: for_window [class="Lxappearance"] floating enable, resize set width 60 ppt height 50 ppt
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [class="Lxappearance"] floating enable, resize set width 60 ppt height 50 ppt
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [class="Lxappearance"] floating enable, resize set width 60 ppt height 50 ppt
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: class=Lxappearance
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[class="Lxappearance"]' -> 'floating enable, resize set width 60 ppt height 50 ppt' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 30: 
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 31: # set floating for window roles
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 32: for_window [window_role="pop-up"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [window_role="pop-up"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [window_role="pop-up"] floating enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: window_role=pop-up
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[window_role="pop-up"]' -> 'floating enable' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 33: for_window [window_role="bubble"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [window_role="bubble"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [window_role="bubble"] floating enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: window_role=bubble
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[window_role="bubble"]' -> 'floating enable' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 34: for_window [window_role="task_dialog"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [window_role="task_dialog"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [window_role="task_dialog"] floating enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: window_role=task_dialog
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[window_role="task_dialog"]' -> 'floating enable' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 35: for_window [window_role="Preferences"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [window_role="Preferences"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [window_role="Preferences"] floating enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: window_role=Preferences
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[window_role="Preferences"]' -> 'floating enable' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 36: for_window [window_type="dialog"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [window_type="dialog"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [window_type="dialog"] floating enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: window_type=dialog
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[window_type="dialog"]' -> 'floating enable' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 37: for_window [window_type="menu"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [window_type="menu"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [window_type="menu"] floating enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: window_type=menu
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[window_type="menu"]' -> 'floating enable' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 38: for_window [window_role="About"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [window_role="About"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [window_role="About"] floating enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: window_role=About
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[window_role="About"]' -> 'floating enable' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 39: for_window [title="File Operation Progress"] floating enable, border pixel 1, sticky enable, resize set width 40 ppt height 30 ppt
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [title="File Operation Progress"] floating enable, border pixel 1, sticky enable, resize set width 40 ppt height 30 ppt
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [title="File Operation Progress"] floating enable, border pixel 1, sticky enable, resize set width 40 ppt height 30 ppt
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: title=File Operation Progress
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[title="File Operation Progress"]' -> 'floating enable, border pixel 1, sticky enable, resize set width 40 ppt height 30 ppt' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 40: for_window [app_id="firefox" title="Library"] floating enable, border pixel 1, sticky enable, resize set width 40 ppt height 30 ppt
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [app_id="firefox" title="Library"] floating enable, border pixel 1, sticky enable, resize set width 40 ppt height 30 ppt
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="firefox" title="Library"] floating enable, border pixel 1, sticky enable, resize set width 40 ppt height 30 ppt
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: app_id=firefox
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: title=Library
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="firefox" title="Library"]' -> 'floating enable, border pixel 1, sticky enable, resize set width 40 ppt height 30 ppt' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 41: for_window [app_id="floating_shell_portrait"] floating enable, border pixel 1, sticky enable, resize set width 30 ppt height 40 ppt
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [app_id="floating_shell_portrait"] floating enable, border pixel 1, sticky enable, resize set width 30 ppt height 40 ppt
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="floating_shell_portrait"] floating enable, border pixel 1, sticky enable, resize set width 30 ppt height 40 ppt
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: app_id=floating_shell_portrait
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="floating_shell_portrait"]' -> 'floating enable, border pixel 1, sticky enable, resize set width 30 ppt height 40 ppt' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 42: for_window [title="Picture in picture"] floating enable, sticky enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [title="Picture in picture"] floating enable, sticky enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [title="Picture in picture"] floating enable, sticky enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: title=Picture in picture
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[title="Picture in picture"]' -> 'floating enable, sticky enable' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 43: for_window [title="nmtui"] floating enable,  resize set width 50 ppt height 70 ppt
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [title="nmtui"] floating enable,  resize set width 50 ppt height 70 ppt
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [title="nmtui"] floating enable, resize set width 50 ppt height 70 ppt
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: title=nmtui
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[title="nmtui"]' -> 'floating enable, resize set width 50 ppt height 70 ppt' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 44: for_window [title="htop"] floating enable, resize set width 50 ppt height 70 ppt
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [title="htop"] floating enable, resize set width 50 ppt height 70 ppt
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [title="htop"] floating enable, resize set width 50 ppt height 70 ppt
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: title=htop
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[title="htop"]' -> 'floating enable, resize set width 50 ppt height 70 ppt' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 45: for_window [app_id="xsensors"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [app_id="xsensors"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="xsensors"] floating enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: app_id=xsensors
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="xsensors"]' -> 'floating enable' added
+00:00:00.040 [DEBUG] [sway/config.c:818] Read line 46: for_window [title="Save File"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:377] Config command: for_window [title="Save File"] floating enable
+00:00:00.040 [INFO] [sway/commands.c:397] After replacement: for_window [title="Save File"] floating enable
+00:00:00.040 [DEBUG] [sway/criteria.c:712] Found pair: title=Save File
+00:00:00.040 [DEBUG] [sway/commands/for_window.c:34] for_window: '[title="Save File"]' -> 'floating enable' added
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 47: for_window [app_id="firefox" title="Firefox — Sharing Indicator"] kill
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: for_window [app_id="firefox" title="Firefox — Sharing Indicator"] kill
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="firefox" title="Firefox — Sharing Indicator"] kill
+00:00:00.041 [DEBUG] [sway/criteria.c:712] Found pair: app_id=firefox
+00:00:00.041 [DEBUG] [sway/criteria.c:712] Found pair: title=Firefox — Sharing Indicator
+00:00:00.041 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="firefox" title="Firefox — Sharing Indicator"]' -> 'kill' added
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 48: 
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 49: # Inhibit idle
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 50: for_window [app_id="firefox"] inhibit_idle fullscreen
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: for_window [app_id="firefox"] inhibit_idle fullscreen
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="firefox"] inhibit_idle fullscreen
+00:00:00.041 [DEBUG] [sway/criteria.c:712] Found pair: app_id=firefox
+00:00:00.041 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="firefox"]' -> 'inhibit_idle fullscreen' added
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 51: for_window [app_id="Chromium"] inhibit_idle fullscreen
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: for_window [app_id="Chromium"] inhibit_idle fullscreen
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: for_window [app_id="Chromium"] inhibit_idle fullscreen
+00:00:00.041 [DEBUG] [sway/criteria.c:712] Found pair: app_id=Chromium
+00:00:00.041 [DEBUG] [sway/commands/for_window.c:34] for_window: '[app_id="Chromium"]' -> 'inhibit_idle fullscreen' added
+00:00:00.041 [INFO] [sway/config.c:404] Loading config from /home/dinesh/.config/sway/config.d/autostart_applications
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 1: # Auth with polkit-gnome:
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 2: exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+00:00:00.041 [DEBUG] [sway/config.c:862] Deferring command `exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1'
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 3: 
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 4: # Desktop notifications
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 5: exec mako
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: exec mako
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: exec mako
+00:00:00.041 [DEBUG] [sway/config.c:862] Deferring command `exec mako'
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 6: 
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 7: # Network Applet
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 8: exec nm-applet --indicator
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: exec nm-applet --indicator
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: exec nm-applet --indicator
+00:00:00.041 [DEBUG] [sway/config.c:862] Deferring command `exec nm-applet --indicator'
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 9: 
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 10: # GTK3 applications take a long time to start
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 11: exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+00:00:00.041 [DEBUG] [sway/config.c:862] Deferring command `exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK'
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 13: exec hash dbus-update-activation-environment 2>/dev/null &&      dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: exec hash dbus-update-activation-environment 2>/dev/null &&      dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: exec hash dbus-update-activation-environment 2>/dev/null && dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+00:00:00.041 [DEBUG] [sway/config.c:862] Deferring command `exec hash dbus-update-activation-environment 2>/dev/null &&      dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK'
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 14:      
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 15: # Welcome App
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 16: exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+00:00:00.041 [DEBUG] [sway/config.c:862] Deferring command `exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/'
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 17: 
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 18: # Sway Fader
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 19: # exec python3 ~/.config/sway/scripts/swayfader.py      
+00:00:00.041 [INFO] [sway/config.c:404] Loading config from /home/dinesh/.config/sway/config.d/clamshell
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 1: # Clamshell Mode
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 2: set $laptop <eDP-1>
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: set $laptop <eDP-1>
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: set $laptop <eDP-1>
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 3: bindswitch --reload --locked lid:on output $laptop disable
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: bindswitch --reload --locked lid:on output $laptop disable
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: bindswitch --reload --locked lid:on output <eDP-1> disable
+00:00:00.041 [DEBUG] [sway/commands/bind.c:235] bindswitch - Bound lid:on to command `output <eDP-1> disable`
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 4: bindswitch --reload --locked lid:off output $laptop enable
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: bindswitch --reload --locked lid:off output $laptop enable
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: bindswitch --reload --locked lid:off output <eDP-1> enable
+00:00:00.041 [DEBUG] [sway/commands/bind.c:235] bindswitch - Bound lid:off to command `output <eDP-1> enable`
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 5: 
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 6: exec_always ~/.config/sway/scripts/clamshell.sh
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: exec_always ~/.config/sway/scripts/clamshell.sh
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: exec_always ~/.config/sway/scripts/clamshell.sh
+00:00:00.041 [DEBUG] [sway/config.c:862] Deferring command `exec_always ~/.config/sway/scripts/clamshell.sh'
+00:00:00.041 [INFO] [sway/config.c:404] Loading config from /home/dinesh/.config/sway/config.d/default
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 1: # vim: filetype=i3config
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 2: 
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 3: # http://bhepple.com/doku/doku.php?id=sway:sway-apps
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 4: # Logo key. Use Mod1 for Alt.
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 5: set $mod Mod4
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: set $mod Mod4
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: set $mod Mod4
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 6: 
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 7: # Home row direction keys, like vim
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 8: set $left h
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: set $left h
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: set $left h
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 9: set $down j
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: set $down j
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: set $down j
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 10: set $up k
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: set $up k
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: set $up k
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 11: set $right l
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: set $right l
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: set $right l
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 12: 
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 13: # Your preferred terminal emulators
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 14: #set $term-float xfce4-terminal
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 15: set $term-float foot
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: set $term-float foot
+00:00:00.041 [INFO] [sway/commands.c:397] After replacement: set $term-float foot
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 16: 
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 17: # Your preferred application launcher
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 18: # Note: pass the final command to swaymsg so that the resulting window can be opened
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 19: # on the original workspace that the command was run on.
+00:00:00.041 [DEBUG] [sway/config.c:818] Read line 20: set $menu wofi -c ~/.config/wofi/config -I
+00:00:00.041 [INFO] [sway/commands.c:377] Config command: set $menu wofi -c ~/.config/wofi/config -I
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: set $menu wofi -c ~/.config/wofi/config -I
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 21: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 22: set $powermenu ~/.config/waybar/scripts/power-menu.sh
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: set $powermenu ~/.config/waybar/scripts/power-menu.sh
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: set $powermenu ~/.config/waybar/scripts/power-menu.sh
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 23: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 24: ### Idle configuration
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 30: exec swayidle -w     timeout 1070 'swaylock -f -C ~/.config/swaylock/config'     timeout 770 'swaymsg "output * dpms off"' 		resume 'swaymsg "output * dpms on"'     before-sleep 'swaylock -f -C ~/.config/swaylock/config' 
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: exec swayidle -w     timeout 1070 'swaylock -f -C ~/.config/swaylock/config'     timeout 770 'swaymsg "output * dpms off"' 		resume 'swaymsg "output * dpms on"'     before-sleep 'swaylock -f -C ~/.config/swaylock/config'
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: exec swayidle -w timeout 1070 'swaylock -f -C ~/.config/swaylock/config' timeout 770 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' before-sleep 'swaylock -f -C ~/.config/swaylock/config'
+00:00:00.042 [DEBUG] [sway/config.c:862] Deferring command `exec swayidle -w     timeout 1070 'swaylock -f -C ~/.config/swaylock/config'     timeout 770 'swaymsg "output * dpms off"' 		resume 'swaymsg "output * dpms on"'     before-sleep 'swaylock -f -C ~/.config/swaylock/config''
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 31: # This will lock your screen after 300 seconds of inactivity, then turn off
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 32: # your displays after another 300 seconds, and turn your screens back on when
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 33: # resumed. It will also lock your screen before your computer goes to sleep.
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 34: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 35: ## Lock Screen
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 36:  bindsym $mod+f1 exec ~/.config/sway/scripts/lockman.sh
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+f1 exec ~/.config/sway/scripts/lockman.sh
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+f1 exec ~/.config/sway/scripts/lockman.sh
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+f1 to command `exec ~/.config/sway/scripts/lockman.sh` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 37: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 38: ### Key bindings
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 39: #
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 40: # Basics:
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 41: #
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 42:     # Start a floating terminal
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 43:     bindsym $mod+Return exec $term-float    
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Return exec $term-float
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Return exec foot
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Return to command `exec foot` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 44: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 45:     # Open the power menu
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 46:     bindsym $mod+Shift+e exec $powermenu
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+e exec $powermenu
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+e exec ~/.config/waybar/scripts/power-menu.sh
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+e to command `exec ~/.config/waybar/scripts/power-menu.sh` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 47: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 48:     # Kill focused window
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 49:     bindsym $mod+q kill
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+q kill
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+q kill
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+q to command `kill` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 50: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 51:     # Start your launcher
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 52:     bindsym $mod+d exec $menu
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+d exec $menu
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+d exec wofi -c ~/.config/wofi/config -I
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+d to command `exec wofi -c ~/.config/wofi/config -I` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 53: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 54:     # Activities
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 55:     bindsym $mod+p exec ~/.config/wofi/windows.py
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+p exec ~/.config/wofi/windows.py
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+p exec ~/.config/wofi/windows.py
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+p to command `exec ~/.config/wofi/windows.py` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 56: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 57:     # Drag floating windows by holding down $mod and left mouse button.
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 58:     # Resize them with right mouse button + $mod.
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 59:     # Despite the name, also works for non-floating windows.
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 60:     # Change normal to inverse to use left mouse button for resizing and right
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 61:     # mouse button for dragging.
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 62:     floating_modifier $mod normal
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: floating_modifier $mod normal
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: floating_modifier Mod4 normal
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 63: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 64:     # Reload the configuration file
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 65:     bindsym $mod+Shift+c reload
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+c reload
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+c reload
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+c to command `reload` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 66: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 67: #
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 68: # Moving around:
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 69: #
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 70:     # Move your focus around
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 71:     bindsym $mod+$left focus left
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+$left focus left
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+h focus left
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+h to command `focus left` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 72:     bindsym $mod+$down focus down
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+$down focus down
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+j focus down
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+j to command `focus down` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 73:     bindsym $mod+$up focus up
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+$up focus up
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+k focus up
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+k to command `focus up` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 74:     bindsym $mod+$right focus right
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+$right focus right
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+l focus right
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+l to command `focus right` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 75:     # Or use $mod+[up|down|left|right]
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 76:     bindsym $mod+Left focus left
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Left focus left
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Left focus left
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Left to command `focus left` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 77:     bindsym $mod+Down focus down
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Down focus down
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Down focus down
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Down to command `focus down` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 78:     bindsym $mod+Up focus up
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Up focus up
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Up focus up
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Up to command `focus up` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 79:     bindsym $mod+Right focus right
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Right focus right
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Right focus right
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Right to command `focus right` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 80: 
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 81:     # Move the focused window with the same, but add Shift
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 82:     bindsym $mod+Shift+$left move left
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+$left move left
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+h move left
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+h to command `move left` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 83:     bindsym $mod+Shift+$down move down
+00:00:00.042 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+$down move down
+00:00:00.042 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+j move down
+00:00:00.042 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+j to command `move down` for device '*'
+00:00:00.042 [DEBUG] [sway/config.c:818] Read line 84:     bindsym $mod+Shift+$up move up
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+$up move up
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+k move up
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+k to command `move up` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 85:     bindsym $mod+Shift+$right move right
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+$right move right
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+l move right
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+l to command `move right` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 86:     # Ditto, with arrow keys
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 87:     bindsym $mod+Shift+Left move left
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+Left move left
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+Left move left
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+Left to command `move left` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 88:     bindsym $mod+Shift+Down move down
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+Down move down
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+Down move down
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+Down to command `move down` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 89:     bindsym $mod+Shift+Up move up
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+Up move up
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+Up move up
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+Up to command `move up` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 90:     bindsym $mod+Shift+Right move right
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+Right move right
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+Right move right
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+Right to command `move right` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 91: #
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 92: # Workspaces:
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 93: #
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 94:     # Switch to workspace
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 95:     bindsym $mod+1 workspace number 1
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+1 workspace number 1
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+1 workspace number 1
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+1 to command `workspace number 1` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 96:     bindsym $mod+2 workspace number 2
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+2 workspace number 2
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+2 workspace number 2
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+2 to command `workspace number 2` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 97:     bindsym $mod+3 workspace number 3
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+3 workspace number 3
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+3 workspace number 3
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+3 to command `workspace number 3` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 98:     bindsym $mod+4 workspace number 4
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+4 workspace number 4
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+4 workspace number 4
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+4 to command `workspace number 4` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 99:     bindsym $mod+5 workspace number 5
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+5 workspace number 5
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+5 workspace number 5
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+5 to command `workspace number 5` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 100:     bindsym $mod+6 workspace number 6
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+6 workspace number 6
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+6 workspace number 6
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+6 to command `workspace number 6` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 101:     bindsym $mod+7 workspace number 7
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+7 workspace number 7
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+7 workspace number 7
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+7 to command `workspace number 7` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 102:     bindsym $mod+8 workspace number 8
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+8 workspace number 8
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+8 workspace number 8
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+8 to command `workspace number 8` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 103:     bindsym $mod+9 workspace number 9
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+9 workspace number 9
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+9 workspace number 9
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+9 to command `workspace number 9` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 104:     bindsym $mod+0 workspace number 10
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+0 workspace number 10
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+0 workspace number 10
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+0 to command `workspace number 10` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 105:     # Move focused container to workspace
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 106:     bindsym $mod+Shift+1 move container to workspace number 1
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+1 move container to workspace number 1
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+1 move container to workspace number 1
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+1 to command `move container to workspace number 1` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 107:     bindsym $mod+Shift+2 move container to workspace number 2
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+2 move container to workspace number 2
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+2 move container to workspace number 2
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+2 to command `move container to workspace number 2` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 108:     bindsym $mod+Shift+3 move container to workspace number 3
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+3 move container to workspace number 3
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+3 move container to workspace number 3
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+3 to command `move container to workspace number 3` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 109:     bindsym $mod+Shift+4 move container to workspace number 4
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+4 move container to workspace number 4
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+4 move container to workspace number 4
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+4 to command `move container to workspace number 4` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 110:     bindsym $mod+Shift+5 move container to workspace number 5
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+5 move container to workspace number 5
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+5 move container to workspace number 5
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+5 to command `move container to workspace number 5` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 111:     bindsym $mod+Shift+6 move container to workspace number 6
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+6 move container to workspace number 6
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+6 move container to workspace number 6
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+6 to command `move container to workspace number 6` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 112:     bindsym $mod+Shift+7 move container to workspace number 7
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+7 move container to workspace number 7
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+7 move container to workspace number 7
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+7 to command `move container to workspace number 7` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 113:     bindsym $mod+Shift+8 move container to workspace number 8
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+8 move container to workspace number 8
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+8 move container to workspace number 8
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+8 to command `move container to workspace number 8` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 114:     bindsym $mod+Shift+9 move container to workspace number 9
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+9 move container to workspace number 9
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+9 move container to workspace number 9
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+9 to command `move container to workspace number 9` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 115:     bindsym $mod+Shift+0 move container to workspace number 10
+00:00:00.043 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+0 move container to workspace number 10
+00:00:00.043 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+0 move container to workspace number 10
+00:00:00.043 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+0 to command `move container to workspace number 10` for device '*'
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 116:     # Note: workspaces can have any name you want, not just numbers.
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 117:     # We just use 1-10 as the default.
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 118: #
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 119: # Layout stuff:
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 120: #
+00:00:00.043 [DEBUG] [sway/config.c:818] Read line 121:     # You can "split" the current object of your focus with
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 122:     # $mod+b or $mod+v, for horizontal and vertical splits
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 123:     # respectively.
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 124:     bindsym $mod+b splith
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: bindsym $mod+b splith
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+b splith
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+b to command `splith` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 125:     bindsym $mod+v splitv
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: bindsym $mod+v splitv
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+v splitv
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+v to command `splitv` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 126: 
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 127:     # Switch the current container between different layout styles
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 128:     bindsym $mod+s layout stacking
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: bindsym $mod+s layout stacking
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+s layout stacking
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+s to command `layout stacking` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 129:     bindsym $mod+w layout tabbed
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: bindsym $mod+w layout tabbed
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+w layout tabbed
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+w to command `layout tabbed` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 130:     bindsym $mod+e layout toggle split
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: bindsym $mod+e layout toggle split
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+e layout toggle split
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+e to command `layout toggle split` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 131: 
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 132:     # Make the current focus fullscreen
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 133:     bindsym $mod+f fullscreen
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: bindsym $mod+f fullscreen
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+f fullscreen
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+f to command `fullscreen` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 134: 
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 135:     # Toggle the current focus between tiling and floating mode
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 136:     bindsym $mod+Shift+space floating toggle
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+space floating toggle
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+space floating toggle
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+space to command `floating toggle` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 137: 
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 138:     # Swap focus between the tiling area and the floating area
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 139:     bindsym $mod+space focus mode_toggle
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: bindsym $mod+space focus mode_toggle
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+space focus mode_toggle
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+space to command `focus mode_toggle` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 140: 
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 141:     # Move focus to the parent container
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 142:     bindsym $mod+a focus parent
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: bindsym $mod+a focus parent
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+a focus parent
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+a to command `focus parent` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 143: #
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 144: # Scratchpad:
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 145: #
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 146:     # Sway has a "scratchpad", which is a bag of holding for windows.
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 147:     # You can send windows there and get them back later.
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 148: 
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 149:     # Move the currently focused window to the scratchpad
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 150:     bindsym $mod+Shift+minus move scratchpad
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: bindsym $mod+Shift+minus move scratchpad
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+Shift+minus move scratchpad
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+Shift+minus to command `move scratchpad` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 151: 
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 152:     # Show the next scratchpad window or hide the focused scratchpad window.
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 153:     # If there are multiple scratchpad windows, this command cycles through them.
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 154:     bindsym $mod+minus scratchpad show
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: bindsym $mod+minus scratchpad show
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+minus scratchpad show
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+minus to command `scratchpad show` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 155: #
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 156: # Resizing containers:
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 157: #
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 158: mode "resize" {
+00:00:00.044 [DEBUG] [sway/config.c:872] Entering block 'mode "resize"'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 159:     # left will shrink the containers width
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 160:     # right will grow the containers width
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 161:     # up will shrink the containers height
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 162:     # down will grow the containers height
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 163:     bindsym $left resize shrink width 10px
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: mode "resize" bindsym $left resize shrink width 10px
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: mode "resize" bindsym h resize shrink width 10px
+00:00:00.044 [DEBUG] [sway/commands.c:428] Subcommand: bindsym h resize shrink width 10px
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound h to command `resize shrink width 10px` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 164:     bindsym $down resize grow height 10px
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: mode "resize" bindsym $down resize grow height 10px
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: mode "resize" bindsym j resize grow height 10px
+00:00:00.044 [DEBUG] [sway/commands.c:428] Subcommand: bindsym j resize grow height 10px
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound j to command `resize grow height 10px` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 165:     bindsym $up resize shrink height 10px
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: mode "resize" bindsym $up resize shrink height 10px
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: mode "resize" bindsym k resize shrink height 10px
+00:00:00.044 [DEBUG] [sway/commands.c:428] Subcommand: bindsym k resize shrink height 10px
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound k to command `resize shrink height 10px` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 166:     bindsym $right resize grow width 10px
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: mode "resize" bindsym $right resize grow width 10px
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: mode "resize" bindsym l resize grow width 10px
+00:00:00.044 [DEBUG] [sway/commands.c:428] Subcommand: bindsym l resize grow width 10px
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound l to command `resize grow width 10px` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 167: 
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 168:     # Ditto, with arrow keys
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 169:     bindsym Left resize shrink width 10px
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: mode "resize" bindsym Left resize shrink width 10px
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: mode "resize" bindsym Left resize shrink width 10px
+00:00:00.044 [DEBUG] [sway/commands.c:428] Subcommand: bindsym Left resize shrink width 10px
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Left to command `resize shrink width 10px` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 170:     bindsym Down resize grow height 10px
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: mode "resize" bindsym Down resize grow height 10px
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: mode "resize" bindsym Down resize grow height 10px
+00:00:00.044 [DEBUG] [sway/commands.c:428] Subcommand: bindsym Down resize grow height 10px
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Down to command `resize grow height 10px` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 171:     bindsym Up resize shrink height 10px
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: mode "resize" bindsym Up resize shrink height 10px
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: mode "resize" bindsym Up resize shrink height 10px
+00:00:00.044 [DEBUG] [sway/commands.c:428] Subcommand: bindsym Up resize shrink height 10px
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Up to command `resize shrink height 10px` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 172:     bindsym Right resize grow width 10px
+00:00:00.044 [INFO] [sway/commands.c:377] Config command: mode "resize" bindsym Right resize grow width 10px
+00:00:00.044 [INFO] [sway/commands.c:397] After replacement: mode "resize" bindsym Right resize grow width 10px
+00:00:00.044 [DEBUG] [sway/commands.c:428] Subcommand: bindsym Right resize grow width 10px
+00:00:00.044 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Right to command `resize grow width 10px` for device '*'
+00:00:00.044 [DEBUG] [sway/config.c:818] Read line 173: 
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 174:     # Return to default mode
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 175:     bindsym Return mode "default"
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: mode "resize" bindsym Return mode "default"
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: mode "resize" bindsym Return mode "default"
+00:00:00.045 [DEBUG] [sway/commands.c:428] Subcommand: bindsym Return mode "default"
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Return to command `mode "default"` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 176:     bindsym Escape mode "default"
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: mode "resize" bindsym Escape mode "default"
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: mode "resize" bindsym Escape mode "default"
+00:00:00.045 [DEBUG] [sway/commands.c:428] Subcommand: bindsym Escape mode "default"
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Escape to command `mode "default"` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 177: }
+00:00:00.045 [DEBUG] [sway/config.c:889] Exiting block 'mode "resize"'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 178: bindsym $mod+r mode "resize"
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym $mod+r mode "resize"
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+r mode "resize"
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+r to command `mode "resize"` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 179: 
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 180: # Resize floating windows with mouse scroll:
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 181: bindsym --whole-window --border $mod+button4 resize shrink height 5 px or 5 ppt
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym --whole-window --border $mod+button4 resize shrink height 5 px or 5 ppt
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym --whole-window --border Mod4+button4 resize shrink height 5 px or 5 ppt
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+button4 to command `resize shrink height 5 px or 5 ppt` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 182: bindsym --whole-window --border $mod+button5 resize grow height 5 px or 5 ppt
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym --whole-window --border $mod+button5 resize grow height 5 px or 5 ppt
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym --whole-window --border Mod4+button5 resize grow height 5 px or 5 ppt
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+button5 to command `resize grow height 5 px or 5 ppt` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 183: bindsym --whole-window --border $mod+shift+button4 resize shrink width 5 px or 5 ppt
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym --whole-window --border $mod+shift+button4 resize shrink width 5 px or 5 ppt
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym --whole-window --border Mod4+shift+button4 resize shrink width 5 px or 5 ppt
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+shift+button4 to command `resize shrink width 5 px or 5 ppt` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 184: bindsym --whole-window --border $mod+shift+button5 resize grow width 5 px or 5 ppt
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym --whole-window --border $mod+shift+button5 resize grow width 5 px or 5 ppt
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym --whole-window --border Mod4+shift+button5 resize grow width 5 px or 5 ppt
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+shift+button5 to command `resize grow width 5 px or 5 ppt` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 185: 
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 186: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 187: # Volume
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 188: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 189:     bindsym --locked XF86AudioRaiseVolume exec pamixer -ui 2
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym --locked XF86AudioRaiseVolume exec pamixer -ui 2
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym --locked XF86AudioRaiseVolume exec pamixer -ui 2
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound XF86AudioRaiseVolume to command `exec pamixer -ui 2` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 190:     bindsym --locked XF86AudioLowerVolume exec pamixer -ud 2
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym --locked XF86AudioLowerVolume exec pamixer -ud 2
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym --locked XF86AudioLowerVolume exec pamixer -ud 2
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound XF86AudioLowerVolume to command `exec pamixer -ud 2` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 191:     bindsym --locked XF86AudioMute exec pamixer -t
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym --locked XF86AudioMute exec pamixer -t
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym --locked XF86AudioMute exec pamixer -t
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound XF86AudioMute to command `exec pamixer -t` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 192: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 193: # Player
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 194: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 195:     bindsym XF86AudioPlay exec playerctl play
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym XF86AudioPlay exec playerctl play
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym XF86AudioPlay exec playerctl play
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound XF86AudioPlay to command `exec playerctl play` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 196:     bindsym XF86AudioPause exec playerctl pause
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym XF86AudioPause exec playerctl pause
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym XF86AudioPause exec playerctl pause
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound XF86AudioPause to command `exec playerctl pause` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 197:     bindsym XF86AudioNext exec playerctl next
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym XF86AudioNext exec playerctl next
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym XF86AudioNext exec playerctl next
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound XF86AudioNext to command `exec playerctl next` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 198:     bindsym XF86AudioPrev exec playerctl previous
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym XF86AudioPrev exec playerctl previous
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym XF86AudioPrev exec playerctl previous
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound XF86AudioPrev to command `exec playerctl previous` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 199: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 200: # Backlight
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 201: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 202:     bindsym XF86MonBrightnessUp exec brightnessctl -c backlight set +5%
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym XF86MonBrightnessUp exec brightnessctl -c backlight set +5%
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym XF86MonBrightnessUp exec brightnessctl -c backlight set +5%
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound XF86MonBrightnessUp to command `exec brightnessctl -c backlight set +5%` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 203:     bindsym XF86MonBrightnessDown exec brightnessctl -c backlight set 5%-
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym XF86MonBrightnessDown exec brightnessctl -c backlight set 5%-
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym XF86MonBrightnessDown exec brightnessctl -c backlight set 5%-
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound XF86MonBrightnessDown to command `exec brightnessctl -c backlight set 5%-` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 204: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 205: # App shortcuts
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 206: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 207:     bindsym $mod+n exec thunar
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym $mod+n exec thunar
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+n exec thunar
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+n to command `exec thunar` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 208:     bindsym $mod+o exec firefox
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym $mod+o exec firefox
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+o exec firefox
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+o to command `exec firefox` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 209: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 210: # Screenshots
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 211: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 212:     bindsym print exec /usr/share/sway/scripts/grimshot --notify save output
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym print exec /usr/share/sway/scripts/grimshot --notify save output
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym print exec /usr/share/sway/scripts/grimshot --notify save output
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound print to command `exec /usr/share/sway/scripts/grimshot --notify save output` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 213:     bindsym Shift+print exec ~/.config/sway/scripts/screenshot.sh
+00:00:00.045 [INFO] [sway/commands.c:377] Config command: bindsym Shift+print exec ~/.config/sway/scripts/screenshot.sh
+00:00:00.045 [INFO] [sway/commands.c:397] After replacement: bindsym Shift+print exec ~/.config/sway/scripts/screenshot.sh
+00:00:00.045 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Shift+print to command `exec ~/.config/sway/scripts/screenshot.sh` for device '*'
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 214: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 215: # Keybindings List
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 216: #
+00:00:00.045 [DEBUG] [sway/config.c:818] Read line 217:    bindsym $mod+t exec xed ~/.config/sway/cheatsheet    
+00:00:00.046 [INFO] [sway/commands.c:377] Config command: bindsym $mod+t exec xed ~/.config/sway/cheatsheet
+00:00:00.046 [INFO] [sway/commands.c:397] After replacement: bindsym Mod4+t exec xed ~/.config/sway/cheatsheet
+00:00:00.046 [DEBUG] [sway/commands/bind.c:298] bindsym - Bound Mod4+t to command `exec xed ~/.config/sway/cheatsheet` for device '*'
+00:00:00.046 [INFO] [sway/config.c:404] Loading config from /home/dinesh/.config/sway/config.d/input
+00:00:00.046 [DEBUG] [sway/config.c:818] Read line 1: ### Input configuration
+00:00:00.046 [DEBUG] [sway/config.c:818] Read line 2: #
+00:00:00.046 [DEBUG] [sway/config.c:818] Read line 3: # Example configuration:
+00:00:00.046 [DEBUG] [sway/config.c:818] Read line 4: # You can get the names of your inputs by running: swaymsg -t get_inputs
+00:00:00.046 [DEBUG] [sway/config.c:818] Read line 5: # Put your touchpad's ID to replace "Touchpad-ID" (keep the quotation marks)
+00:00:00.046 [DEBUG] [sway/config.c:818] Read line 6: 
+00:00:00.046 [DEBUG] [sway/config.c:818] Read line 7: input type:touchpad {
+00:00:00.046 [DEBUG] [sway/config.c:872] Entering block 'input type:touchpad'
+00:00:00.046 [DEBUG] [sway/config.c:818] Read line 8:       dwt enabled
+00:00:00.046 [INFO] [sway/commands.c:377] Config command: input type:touchpad dwt enabled
+00:00:00.046 [INFO] [sway/commands.c:397] After replacement: input type:touchpad dwt enabled
+00:00:00.046 [DEBUG] [sway/commands/input.c:54] entering input block: type:touchpad
+00:00:00.046 [DEBUG] [sway/config/input.c:15] new_input_config(type:touchpad)
+00:00:00.046 [DEBUG] [sway/commands.c:428] Subcommand: dwt enabled
+00:00:00.046 [DEBUG] [sway/config/input.c:15] new_input_config(temp)
+00:00:00.049 [DEBUG] [sway/config/input.c:350] Config stored for input type:touchpad
+00:00:00.049 [DEBUG] [sway/config.c:818] Read line 9:       tap enabled
+00:00:00.049 [INFO] [sway/commands.c:377] Config command: input type:touchpad tap enabled
+00:00:00.049 [INFO] [sway/commands.c:397] After replacement: input type:touchpad tap enabled
+00:00:00.049 [DEBUG] [sway/commands/input.c:54] entering input block: type:touchpad
+00:00:00.049 [DEBUG] [sway/config/input.c:15] new_input_config(type:touchpad)
+00:00:00.049 [DEBUG] [sway/commands.c:428] Subcommand: tap enabled
+00:00:00.049 [DEBUG] [sway/config/input.c:15] new_input_config(temp)
+00:00:00.051 [DEBUG] [sway/config/input.c:350] Config stored for input type:touchpad
+00:00:00.051 [DEBUG] [sway/config.c:818] Read line 10:       natural_scroll enabled
+00:00:00.051 [INFO] [sway/commands.c:377] Config command: input type:touchpad natural_scroll enabled
+00:00:00.051 [INFO] [sway/commands.c:397] After replacement: input type:touchpad natural_scroll enabled
+00:00:00.051 [DEBUG] [sway/commands/input.c:54] entering input block: type:touchpad
+00:00:00.051 [DEBUG] [sway/config/input.c:15] new_input_config(type:touchpad)
+00:00:00.051 [DEBUG] [sway/commands.c:428] Subcommand: natural_scroll enabled
+00:00:00.051 [DEBUG] [sway/config/input.c:15] new_input_config(temp)
+00:00:00.054 [DEBUG] [sway/config/input.c:350] Config stored for input type:touchpad
+00:00:00.054 [DEBUG] [sway/config.c:818] Read line 11: }
+00:00:00.054 [DEBUG] [sway/config.c:889] Exiting block 'input type:touchpad'
+00:00:00.054 [DEBUG] [sway/config.c:818] Read line 12: 
+00:00:00.054 [DEBUG] [sway/config.c:818] Read line 13: # Read `man 5 sway-input` for more information about this section.
+00:00:00.054 [DEBUG] [sway/config.c:818] Read line 14: #
+00:00:00.054 [DEBUG] [sway/config.c:818] Read line 15: input type:keyboard {
+00:00:00.054 [DEBUG] [sway/config.c:872] Entering block 'input type:keyboard'
+00:00:00.054 [DEBUG] [sway/config.c:818] Read line 16: 	xkb_layout "us"
+00:00:00.054 [INFO] [sway/commands.c:377] Config command: input type:keyboard xkb_layout "us"
+00:00:00.054 [INFO] [sway/commands.c:397] After replacement: input type:keyboard xkb_layout "us"
+00:00:00.054 [DEBUG] [sway/commands/input.c:54] entering input block: type:keyboard
+00:00:00.054 [DEBUG] [sway/config/input.c:15] new_input_config(type:keyboard)
+00:00:00.054 [DEBUG] [sway/commands.c:428] Subcommand: xkb_layout us
+00:00:00.054 [DEBUG] [sway/commands/input/xkb_layout.c:18] set-xkb_layout for config: type:keyboard layout: us
+00:00:00.054 [DEBUG] [sway/config/input.c:15] new_input_config(temp)
+00:00:00.057 [DEBUG] [sway/config/input.c:350] Config stored for input type:keyboard
+00:00:00.057 [DEBUG] [sway/config.c:818] Read line 17: 	xkb_options caps:escape
+00:00:00.057 [INFO] [sway/commands.c:377] Config command: input type:keyboard xkb_options caps:escape
+00:00:00.057 [INFO] [sway/commands.c:397] After replacement: input type:keyboard xkb_options caps:escape
+00:00:00.057 [DEBUG] [sway/commands/input.c:54] entering input block: type:keyboard
+00:00:00.057 [DEBUG] [sway/config/input.c:15] new_input_config(type:keyboard)
+00:00:00.057 [DEBUG] [sway/commands.c:428] Subcommand: xkb_options caps:escape
+00:00:00.057 [DEBUG] [sway/commands/input/xkb_options.c:18] set-xkb_options for config: type:keyboard options: caps:escape
+00:00:00.057 [DEBUG] [sway/config/input.c:15] new_input_config(temp)
+00:00:00.060 [DEBUG] [sway/config/input.c:350] Config stored for input type:keyboard
+00:00:00.060 [DEBUG] [sway/config.c:818] Read line 18: 	xkb_numlock enabled
+00:00:00.060 [INFO] [sway/commands.c:377] Config command: input type:keyboard xkb_numlock enabled
+00:00:00.060 [INFO] [sway/commands.c:397] After replacement: input type:keyboard xkb_numlock enabled
+00:00:00.060 [DEBUG] [sway/commands/input.c:54] entering input block: type:keyboard
+00:00:00.060 [DEBUG] [sway/config/input.c:15] new_input_config(type:keyboard)
+00:00:00.060 [DEBUG] [sway/commands.c:428] Subcommand: xkb_numlock enabled
+00:00:00.060 [DEBUG] [sway/config/input.c:15] new_input_config(temp)
+00:00:00.063 [DEBUG] [sway/config/input.c:350] Config stored for input type:keyboard
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 19: }
+00:00:00.063 [DEBUG] [sway/config.c:889] Exiting block 'input type:keyboard'
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 20: 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 21: exec_always {
+00:00:00.063 [DEBUG] [sway/config.c:872] Entering block 'exec_always'
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 22:    'swaymsg input type:keyboard xkb_layout "$(localectl status | grep "X11 Layout" | sed -e "s/^.*X11 Layout://")"'
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: exec_always 'swaymsg input type:keyboard xkb_layout "$(localectl status | grep "X11 Layout" | sed -e "s/^.*X11 Layout://")"'
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: exec_always 'swaymsg input type:keyboard xkb_layout "$(localectl status | grep "X11 Layout" | sed -e "s/^.*X11 Layout://")"'
+00:00:00.063 [DEBUG] [sway/config.c:862] Deferring command `'swaymsg input type:keyboard xkb_layout "$(localectl status | grep "X11 Layout" | sed -e "s/^.*X11 Layout://")"''
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 23:    'swaymsg input type:keyboard xkb_variant "$(localectl status | grep "X11 Variant" | sed -e "s/^.*X11 Variant://")"'
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: exec_always 'swaymsg input type:keyboard xkb_variant "$(localectl status | grep "X11 Variant" | sed -e "s/^.*X11 Variant://")"'
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: exec_always 'swaymsg input type:keyboard xkb_variant "$(localectl status | grep "X11 Variant" | sed -e "s/^.*X11 Variant://")"'
+00:00:00.063 [DEBUG] [sway/config.c:862] Deferring command `'swaymsg input type:keyboard xkb_variant "$(localectl status | grep "X11 Variant" | sed -e "s/^.*X11 Variant://")"''
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 24: }
+00:00:00.063 [DEBUG] [sway/config.c:889] Exiting block 'exec_always'
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 25: 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 26: 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 27: 
+00:00:00.063 [INFO] [sway/config.c:404] Loading config from /home/dinesh/.config/sway/config.d/output
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 1: ### Output configuration
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 2: #
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 3: # Example configuration:
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 4: #
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 5: #   output HDMI-A-1 resolution 1920x1080 position 1920,0
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 6: #
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 7: # You can get the names of your outputs by running: swaymsg -t get_outputs
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 8: # 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 9: # Wacom Tablet - Example
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 10: #   input "1386:884:Wacom_Intuos_S_Pad" map_to_output HDMI-A-1
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 11: #   input "1386:884:Wacom_Intuos_S_Pen" map_to_output HDMI-A-1
+00:00:00.063 [INFO] [sway/config.c:404] Loading config from /home/dinesh/.config/sway/config.d/theme
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 1: # Apply gtk theming
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 2: exec_always ~/.config/sway/scripts/import-gsettings
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: exec_always ~/.config/sway/scripts/import-gsettings
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: exec_always ~/.config/sway/scripts/import-gsettings
+00:00:00.063 [DEBUG] [sway/config.c:862] Deferring command `exec_always ~/.config/sway/scripts/import-gsettings'
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 3: 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 4: # Set inner/outer gaps
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 5: gaps inner 2
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: gaps inner 2
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: gaps inner 2
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 6: gaps outer 0
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: gaps outer 0
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: gaps outer 0
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 7: 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 8: # Hide titlebar on windows: 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 9: default_border pixel 1
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: default_border pixel 1
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: default_border pixel 1
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 10: 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 11: # Default Font
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 12: font pango:Noto Sans Regular 10
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: font pango:Noto Sans Regular 10
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: font pango:Noto Sans Regular 10
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 13: 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 14: # Thin borders:
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 15: smart_borders on
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: smart_borders on
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: smart_borders on
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 16: 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 17: # Set wallpaper:
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 18: exec swaybg -i ~/.config/sway/sway.png
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: exec swaybg -i ~/.config/sway/sway.png
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: exec swaybg -i ~/.config/sway/sway.png
+00:00:00.063 [DEBUG] [sway/config.c:862] Deferring command `exec swaybg -i ~/.config/sway/sway.png'
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 19: 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 20: # Title format for windows
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 21: for_window [shell="xdg_shell"] title_format "%title (%app_id)"
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: for_window [shell="xdg_shell"] title_format "%title (%app_id)"
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: for_window [shell="xdg_shell"] title_format "%title (%app_id)"
+00:00:00.063 [DEBUG] [sway/criteria.c:712] Found pair: shell=xdg_shell
+00:00:00.063 [DEBUG] [sway/commands/for_window.c:34] for_window: '[shell="xdg_shell"]' -> 'title_format "%title (%app_id)"' added
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 22: for_window [shell="x_wayland"] title_format "%class - %title"
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: for_window [shell="x_wayland"] title_format "%class - %title"
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: for_window [shell="x_wayland"] title_format "%class - %title"
+00:00:00.063 [DEBUG] [sway/criteria.c:712] Found pair: shell=x_wayland
+00:00:00.063 [DEBUG] [sway/commands/for_window.c:34] for_window: '[shell="x_wayland"]' -> 'title_format "%class - %title"' added
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 23: 
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 24: # class                 border  bground text    indicator child_border
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 25: client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
+00:00:00.063 [INFO] [sway/commands.c:377] Config command: client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
+00:00:00.063 [INFO] [sway/commands.c:397] After replacement: client.focused #6272A4 #6272A4 #F8F8F2 #6272A4 #6272A4
+00:00:00.063 [DEBUG] [sway/config.c:818] Read line 26: client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+00:00:00.064 [INFO] [sway/commands.c:377] Config command: client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+00:00:00.064 [INFO] [sway/commands.c:397] After replacement: client.focused_inactive #44475A #44475A #F8F8F2 #44475A #44475A
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 27: client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+00:00:00.064 [INFO] [sway/commands.c:377] Config command: client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+00:00:00.064 [INFO] [sway/commands.c:397] After replacement: client.unfocused #282A36 #282A36 #BFBFBF #282A36 #282A36
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 28: client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+00:00:00.064 [INFO] [sway/commands.c:377] Config command: client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+00:00:00.064 [INFO] [sway/commands.c:397] After replacement: client.urgent #44475A #FF5555 #F8F8F2 #FF5555 #FF5555
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 29: client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+00:00:00.064 [INFO] [sway/commands.c:377] Config command: client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+00:00:00.064 [INFO] [sway/commands.c:397] After replacement: client.placeholder #282A36 #282A36 #F8F8F2 #282A36 #282A36
+00:00:00.064 [INFO] [sway/commands/client.c:80] Warning: client.placeholder is ignored by sway
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 30: client.background       #F8F8F2
+00:00:00.064 [INFO] [sway/commands.c:377] Config command: client.background       #F8F8F2
+00:00:00.064 [INFO] [sway/commands.c:397] After replacement: client.background #F8F8F2
+00:00:00.064 [INFO] [sway/commands/client.c:80] Warning: client.background is ignored by sway
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 31: 
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 32: #
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 33: # Status Bar:
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 34: #
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 35: # Read `man 5 sway-bar` for more information about this section.
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 36: bar {
+00:00:00.064 [DEBUG] [sway/config.c:872] Entering block 'bar'
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 37:    swaybar_command waybar
+00:00:00.064 [INFO] [sway/commands.c:377] Config command: bar swaybar_command waybar
+00:00:00.064 [INFO] [sway/commands.c:397] After replacement: bar swaybar_command waybar
+00:00:00.064 [DEBUG] [sway/commands/bar.c:93] Creating bar: bar-0
+00:00:00.064 [DEBUG] [sway/commands.c:428] Subcommand: swaybar_command waybar
+00:00:00.064 [DEBUG] [sway/commands/bar/swaybar_command.c:13] Using custom swaybar command: waybar
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 38: }
+00:00:00.064 [DEBUG] [sway/config.c:889] Exiting block 'bar'
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 7: 
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 8: # only enable this if every app you use is compatible with wayland
+00:00:00.064 [DEBUG] [sway/config.c:818] Read line 9: # xwayland disable
+00:00:00.064 [DEBUG] [sway/server.c:218] Initializing Xwayland (lazy=1)
+00:00:00.064 [INFO] [sway/server.c:241] Starting backend on wayland display 'wayland-2'
+00:00:00.064 [INFO] [wlr] [backend/wayland/backend.c:270] Initializating wayland backend
+00:00:00.064 [DEBUG] [sway/input/input-manager.c:234] adding device: '0:0:wayland-seat0'
+00:00:00.064 [DEBUG] [sway/input/input-manager.c:184] no fallback seat config - creating default
+00:00:00.064 [DEBUG] [sway/config/seat.c:66] Adding non-wildcard seat config
+00:00:00.064 [DEBUG] [sway/config/seat.c:83] Config stored for seat seat0
+00:00:00.064 [DEBUG] [sway/input/input-manager.c:585] applying seat config for seat seat0
+00:00:00.064 [DEBUG] [sway/input/seat.c:930] adding device 0:0:wayland-seat0 to seat seat0
+00:00:00.068 [DEBUG] [sway/input/keyboard.c:937] Created keyboard group 0x558111d30500
+00:00:00.068 [DEBUG] [sway/input/keyboard.c:960] Adding keyboard 0:0:wayland-seat0 to group 0x558111d30500
+00:00:00.077 [DEBUG] [wlr] [types/wlr_output.c:377] WLR_NO_HARDWARE_CURSORS set, forcing software cursors
+00:00:00.077 [DEBUG] [sway/desktop/output.c:880] New output 0x558111d50860: WL-1
+00:00:00.077 [DEBUG] [sway/config/output.c:351] Turning on output WL-1
+00:00:00.077 [DEBUG] [sway/config/output.c:382] Auto-detected output scale: 1.000000
+00:00:00.077 [DEBUG] [sway/config/output.c:412] Committing output WL-1
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:283] Workspace: Generating new workspace name for output WL-1
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:218] Got valid workspace command for target: 'number 1'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:245] Isolated name from workspace number: '1'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:274] Workspace: Found free name 1
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:218] Got valid workspace command for target: 'number 2'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:245] Isolated name from workspace number: '2'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:218] Got valid workspace command for target: 'number 3'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:245] Isolated name from workspace number: '3'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:218] Got valid workspace command for target: 'number 4'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:245] Isolated name from workspace number: '4'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:218] Got valid workspace command for target: 'number 5'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:245] Isolated name from workspace number: '5'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:218] Got valid workspace command for target: 'number 6'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:245] Isolated name from workspace number: '6'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:218] Got valid workspace command for target: 'number 7'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:245] Isolated name from workspace number: '7'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:218] Got valid workspace command for target: 'number 8'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:245] Isolated name from workspace number: '8'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:218] Got valid workspace command for target: 'number 9'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:245] Isolated name from workspace number: '9'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:218] Got valid workspace command for target: 'number 10'
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:245] Isolated name from workspace number: '10'
+00:00:00.077 [DEBUG] [sway/tree/output.c:127] Creating default workspace 1
+00:00:00.077 [DEBUG] [sway/tree/workspace.c:63] Adding workspace 1 for output WL-1
+00:00:00.096 [DEBUG] [wlr] [xcursor/wlr_xcursor.c:243] Loaded cursor theme 'default' at size 24 (124 available cursors)
+00:00:00.115 [DEBUG] [wlr] [xcursor/wlr_xcursor.c:243] Loaded cursor theme 'default' at size 24 (124 available cursors)
+00:00:00.115 [DEBUG] [sway/desktop/layer_shell.c:197] Usable area changed, rearranging output
+00:00:00.115 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 1280x720@0,0
+00:00:00.115 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 2.000000
+00:00:00.115 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 1280x720@0,0
+00:00:00.115 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 2.000000
+00:00:00.121 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111eb94c0 committing with 2 instructions
+00:00:00.121 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111eb94c0
+00:00:00.121 [DEBUG] [sway/input/input-manager.c:234] adding device: '0:0:wayland-seat0'
+00:00:00.121 [DEBUG] [sway/input/seat.c:930] adding device 0:0:wayland-seat0 to seat seat0
+00:00:00.121 [DEBUG] [sway/input/seat.c:709] Applying input config to 0:0:wayland-seat0
+00:00:00.121 [DEBUG] [sway/input/seat.c:739] Mapping input device 0:0:wayland-seat0 to output WL-1
+00:00:00.121 [DEBUG] [sway/input/seat.c:759] Mapped to output WL-1
+00:00:00.121 [DEBUG] [wlr] [types/wlr_output.c:1403] Falling back to software cursor on output 'WL-1'
+00:00:00.121 [INFO] [wlr] [backend/headless/backend.c:28] Starting headless backend
+00:00:00.121 [DEBUG] [sway/config/bar.c:263] Invoking swaybar for bar id 'bar-0'
+00:00:00.124 [DEBUG] [sway/config/bar.c:255] Spawned swaybar bar-0
+00:00:00.124 [DEBUG] [sway/config.c:667] Running deferred commands
+00:00:00.124 [INFO] [sway/commands.c:257] Handling command 'exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1'
+00:00:00.124 [DEBUG] [sway/commands/exec_always.c:50] Executing /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+00:00:00.125 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19254
+00:00:00.125 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19254
+00:00:00.125 [INFO] [sway/commands.c:257] Handling command 'exec mako'
+00:00:00.126 [DEBUG] [sway/commands/exec_always.c:50] Executing mako
+00:00:00.127 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19256
+00:00:00.127 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19256
+00:00:00.127 [INFO] [sway/commands.c:257] Handling command 'exec nm-applet --indicator'
+00:00:00.127 [DEBUG] [sway/commands/exec_always.c:50] Executing nm-applet --indicator
+00:00:00.129 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19258
+00:00:00.129 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19258
+00:00:00.129 [INFO] [sway/commands.c:257] Handling command 'exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK'
+00:00:00.129 [DEBUG] [sway/commands/exec_always.c:50] Executing systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+Failed to acquire service name: File exists
+Is a notification daemon already running?
+00:00:00.145 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19263
+00:00:00.145 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19263
+00:00:00.145 [INFO] [sway/commands.c:257] Handling command 'exec hash dbus-update-activation-environment 2>/dev/null &&      dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK'
+00:00:00.145 [DEBUG] [sway/commands/exec_always.c:50] Executing hash dbus-update-activation-environment 2>/dev/null && dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+00:00:00.147 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19265
+00:00:00.147 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19265
+00:00:00.147 [INFO] [sway/commands.c:257] Handling command 'exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/'
+00:00:00.147 [DEBUG] [sway/commands/exec_always.c:50] Executing dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+00:00:00.149 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19271
+00:00:00.149 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19271
+00:00:00.149 [INFO] [sway/commands.c:257] Handling command 'exec_always ~/.config/sway/scripts/clamshell.sh'
+00:00:00.149 [DEBUG] [sway/commands/exec_always.c:50] Executing ~/.config/sway/scripts/clamshell.sh
+00:00:00.151 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19273
+00:00:00.151 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19273
+00:00:00.151 [INFO] [sway/commands.c:257] Handling command 'exec swayidle -w     timeout 1070 'swaylock -f -C ~/.config/swaylock/config'     timeout 770 'swaymsg "output * dpms off"' 		resume 'swaymsg "output * dpms on"'     before-sleep 'swaylock -f -C ~/.config/swaylock/config''
+00:00:00.151 [DEBUG] [sway/commands/exec_always.c:50] Executing swayidle -w timeout 1070 'swaylock -f -C ~/.config/swaylock/config' timeout 770 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' before-sleep 'swaylock -f -C ~/.config/swaylock/config'
+00:00:00.153 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19275
+00:00:00.153 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19275
+00:00:00.153 [INFO] [sway/commands.c:257] Handling command 'exec_always 'swaymsg input type:keyboard xkb_layout "$(localectl status | grep "X11 Layout" | sed -e "s/^.*X11 Layout://")"''
+00:00:00.153 [DEBUG] [sway/commands/exec_always.c:50] Executing swaymsg input type:keyboard xkb_layout "$(localectl status | grep "X11 Layout" | sed -e "s/^.*X11 Layout://")"
+00:00:00.160 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19277
+00:00:00.160 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19277
+00:00:00.160 [INFO] [sway/commands.c:257] Handling command 'exec_always 'swaymsg input type:keyboard xkb_variant "$(localectl status | grep "X11 Variant" | sed -e "s/^.*X11 Variant://")"''
+00:00:00.160 [DEBUG] [sway/commands/exec_always.c:50] Executing swaymsg input type:keyboard xkb_variant "$(localectl status | grep "X11 Variant" | sed -e "s/^.*X11 Variant://")"
+cat: /proc/acpi/button/lid/LID/state: No such file or directory
+/home/dinesh/.config/sway/scripts/clamshell.sh: line 5: eDP-1: No such file or directory
+00:00:00.173 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19285
+00:00:00.173 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19285
+00:00:00.173 [INFO] [sway/commands.c:257] Handling command 'exec_always ~/.config/sway/scripts/import-gsettings'
+00:00:00.173 [DEBUG] [sway/commands/exec_always.c:50] Executing ~/.config/sway/scripts/import-gsettings
+00:00:00.175 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19297
+00:00:00.175 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19297
+00:00:00.175 [INFO] [sway/commands.c:257] Handling command 'exec swaybg -i ~/.config/sway/sway.png'
+00:00:00.175 [DEBUG] [sway/commands/exec_always.c:50] Executing swaybg -i ~/.config/sway/sway.png
+00:00:00.177 [DEBUG] [sway/commands/exec_always.c:91] Child process created with pid 19300
+00:00:00.177 [DEBUG] [sway/tree/root.c:299] Recording workspace for process 19300
+00:00:00.177 [INFO] [sway/server.c:252] Running compositor on wayland display 'wayland-2'
+00:00:00.177 [DEBUG] [wlr] [types/wlr_output.c:505] Choosing primary buffer format 0x34325241 for output 'WL-1'
+00:00:00.177 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:00.178 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 1280x720 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:00.178 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 1280x720
+00:00:00.183 [DEBUG] [wlr] [GLES2] FS SIMD8 shader: 5 inst, 0 loops, 22 cycles, 0:0 spills:fills, 1 sends, scheduled with mode top-down, Promoted 0 constants, compacted 80 to 48 bytes.
+00:00:00.183 [DEBUG] [wlr] [GLES2] FS SIMD16 shader: 5 inst, 0 loops, 30 cycles, 0:0 spills:fills, 1 sends, scheduled with mode top-down, Promoted 0 constants, compacted 80 to 48 bytes.
+00:00:00.183 [DEBUG] [wlr] [GLES2] VS vec4 shader: 8 inst, 0 loops, 22 cycles, 0:0 spills:fills, 1 sends, compacted 128 to 112 bytes.
+00:00:00.184 [DEBUG] [wlr] [GLES2] FS SIMD16 shader: 2 inst, 0 loops, 16 cycles, 0:0 spills:fills, 1 sends, scheduled with mode (null), Promoted 0 constants, compacted 32 to 32 bytes.
+00:00:00.205 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:00.205 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 1280x720 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:00.205 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 1280x720
+00:00:00.206 [DEBUG] [sway/desktop/layer_shell.c:197] Usable area changed, rearranging output
+00:00:00.206 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 635x1049@0,0
+00:00:00.206 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 2.000000
+00:00:00.206 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 635x1049@0,0
+00:00:00.206 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 2.000000
+00:00:00.206 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111eafce0 committing with 1 instructions
+00:00:00.206 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111eafce0
+00:00:00.206 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 635x1049@0,0
+00:00:00.206 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 2.000000
+00:00:00.206 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111d44c30 committing with 1 instructions
+00:00:00.206 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111d44c30
+00:00:00.215 [DEBUG] [wlr] [types/wlr_surface.c:743] New wlr_surface 0x558111faf4a0 (res 0x558111d0d9d0)
+00:00:00.215 [DEBUG] [wlr] [types/wlr_surface.c:743] New wlr_surface 0x558111faf8d0 (res 0x558111d3b5f0)
+00:00:00.216 [DEBUG] [wlr] [types/wlr_surface.c:743] New wlr_surface 0x558111fca070 (res 0x558111fca4a0)
+00:00:00.216 [DEBUG] [wlr] [types/wlr_surface.c:743] New wlr_surface 0x558111fca680 (res 0x558111fcaab0)
+Got sleep lock: 11
+00:00:00.219 [DEBUG] [wlr] [types/wlr_surface.c:743] New wlr_surface 0x558111fc3d30 (res 0x558111fc4160)
+00:00:00.219 [DEBUG] [wlr] [types/wlr_surface.c:743] New wlr_surface 0x558111fc4340 (res 0x558111fc4770)
+00:00:00.231 [DEBUG] [wlr] [types/wlr_output.c:505] Choosing primary buffer format 0x34325241 for output 'WL-1'
+00:00:00.232 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:00.232 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 635x1049 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:00.233 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 635x1049
+00:00:00.247 [DEBUG] [sway/ipc-server.c:153] Event on IPC listening socket
+00:00:00.247 [DEBUG] [sway/ipc-server.c:199] New client: fd 26
+00:00:00.247 [DEBUG] [sway/ipc-server.c:219] Client 26 readable
+00:00:00.247 [INFO] [sway/commands.c:257] Handling command 'input type:keyboard xkb_layout  us'
+00:00:00.247 [DEBUG] [sway/commands/input.c:54] entering input block: type:keyboard
+00:00:00.247 [DEBUG] [sway/config/input.c:15] new_input_config(type:keyboard)
+00:00:00.247 [DEBUG] [sway/commands.c:428] Subcommand: xkb_layout us
+00:00:00.247 [DEBUG] [sway/commands/input/xkb_layout.c:18] set-xkb_layout for config: type:keyboard layout: us
+00:00:00.247 [DEBUG] [sway/config/input.c:15] new_input_config(temp)
+00:00:00.250 [DEBUG] [sway/config/input.c:350] Config stored for input type:keyboard
+/usr/lib/tracker-miner-rss-3: error while loading shared libraries: libtracker-miner-3.0.so: cannot open shared object file: No such file or directory
+00:00:00.313 [DEBUG] [sway/ipc-server.c:958] Added IPC reply of type 0x0 to client 26 queue: [ { "success": true } ]
+00:00:00.313 [DEBUG] [sway/ipc-server.c:153] Event on IPC listening socket
+00:00:00.313 [DEBUG] [sway/ipc-server.c:199] New client: fd 36
+00:00:00.313 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:00.314 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 635x1049 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:00.314 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 635x1049
+00:00:00.319 [DEBUG] [sway/ipc-server.c:535] Client 26 writable
+00:00:00.319 [DEBUG] [sway/ipc-server.c:219] Client 36 readable
+00:00:00.319 [INFO] [sway/commands.c:257] Handling command 'input type:keyboard xkb_variant '
+00:00:00.319 [DEBUG] [sway/commands/input.c:54] entering input block: type:keyboard
+00:00:00.319 [DEBUG] [sway/config/input.c:15] new_input_config(type:keyboard)
+00:00:00.319 [DEBUG] [sway/commands.c:428] Subcommand: xkb_variant
+00:00:00.319 [DEBUG] [sway/ipc-server.c:958] Added IPC reply of type 0x0 to client 36 queue: [ { "success": false, "parse_error": true, "error": "Invalid xkb_variant command (expected 1 argument, got 0)" } ]
+00:00:00.319 [DEBUG] [sway/ipc-server.c:214] Client 26 hung up
+00:00:00.319 [INFO] [sway/ipc-server.c:565] IPC Client 26 disconnected
+00:00:00.319 [DEBUG] [sway/ipc-server.c:535] Client 36 writable
+00:00:00.320 [DEBUG] [sway/ipc-server.c:214] Client 36 hung up
+00:00:00.320 [INFO] [sway/ipc-server.c:565] IPC Client 36 disconnected
+00:00:00.320 [INFO] [wlr] [xwayland/server.c:99] WAYLAND_SOCKET=22 Xwayland :1 -rootless -terminate -core -listenfd 20 -listenfd 21 -wm 32
+2021-07-18 13:40:29 - [swaybg-1.0/main.c:299] Found config * for output WL-1 ((null))
+00:00:00.321 [DEBUG] [wlr] [types/wlr_surface.c:743] New wlr_surface 0x558111fec600 (res 0x558112001cd0)
+00:00:00.321 [DEBUG] [wlr] [types/wlr_layer_shell_v1.c:471] new layer_surface 0x558111fd5a50 (res 0x558111fb7e00)
+00:00:00.321 [DEBUG] [sway/desktop/layer_shell.c:598] new layer surface: namespace wallpaper layer 0 anchor 15 size 0x0 margin 0,0,0,0,
+Cannot register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: An authentication agent already exists for the given subject
+glamor: No eglstream capable devices found
+basic_string::_M_create
+00:00:00.433 [DEBUG] [sway/ipc-server.c:153] Event on IPC listening socket
+00:00:00.433 [DEBUG] [sway/ipc-server.c:199] New client: fd 24
+00:00:00.433 [DEBUG] [sway/ipc-server.c:153] Event on IPC listening socket
+00:00:00.433 [DEBUG] [sway/ipc-server.c:199] New client: fd 27
+00:00:00.433 [DEBUG] [sway/ipc-server.c:219] Client 27 readable
+00:00:00.433 [DEBUG] [sway/ipc-server.c:958] Added IPC reply of type 0x2 to client 27 queue: {"success": true}
+00:00:00.433 [DEBUG] [sway/ipc-server.c:535] Client 27 writable
+00:00:00.433 [DEBUG] [sway/ipc-server.c:219] Client 24 readable
+00:00:00.433 [DEBUG] [sway/ipc-server.c:958] Added IPC reply of type 0x1 to client 24 queue: [ { "id": 4, "type": "workspace", "orientation": "horizontal", "percent": null, "urgent": false, "marks": [ ], "layout": "splith", "border": "none", "current_border_width": 0, "rect": { "x": 2, "y": 2, "width": 631, "height": 1045 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "name": "1", "window": null, "nodes": [ ], "floating_nodes": [ ], "focus": [ ], "fullscreen_mode": 1, "sticky": false, "num": 1, "output": "WL-1", "representation": null, "focused": true, "visible": true } ]
+00:00:00.433 [DEBUG] [sway/ipc-server.c:535] Client 24 writable
+00:00:00.434 [DEBUG] [sway/ipc-server.c:153] Event on IPC listening socket
+00:00:00.434 [DEBUG] [sway/ipc-server.c:199] New client: fd 34
+00:00:00.434 [DEBUG] [sway/ipc-server.c:153] Event on IPC listening socket
+00:00:00.434 [DEBUG] [sway/ipc-server.c:199] New client: fd 36
+00:00:00.434 [DEBUG] [sway/ipc-server.c:219] Client 36 readable
+00:00:00.434 [DEBUG] [sway/ipc-server.c:958] Added IPC reply of type 0x2 to client 36 queue: {"success": true}
+00:00:00.434 [DEBUG] [sway/ipc-server.c:535] Client 36 writable
+00:00:00.434 [DEBUG] [sway/ipc-server.c:153] Event on IPC listening socket
+00:00:00.434 [DEBUG] [sway/ipc-server.c:199] New client: fd 41
+00:00:00.434 [DEBUG] [sway/ipc-server.c:153] Event on IPC listening socket
+00:00:00.434 [DEBUG] [sway/ipc-server.c:199] New client: fd 44
+00:00:00.434 [DEBUG] [sway/ipc-server.c:219] Client 44 readable
+00:00:00.434 [DEBUG] [sway/ipc-server.c:958] Added IPC reply of type 0x2 to client 44 queue: {"success": true}
+00:00:00.434 [DEBUG] [sway/ipc-server.c:535] Client 44 writable
+00:00:00.434 [DEBUG] [sway/ipc-server.c:219] Client 41 readable
+00:00:00.434 [DEBUG] [sway/ipc-server.c:958] Added IPC reply of type 0x4 to client 41 queue: { "id": 1, "type": "root", "orientation": "horizontal", "percent": null, "urgent": false, "marks": [ ], "focused": false, "layout": "splith", "border": "none", "current_border_width": 0, "rect": { "x": 0, "y": 0, "width": 635, "height": 1049 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "name": "root", "window": null, "nodes": [ { "id": 2147483647, "type": "output", "orientation": "horizontal", "percent": null, "urgent": false, "marks": [ ], "focused": false, "layout": "output", "border": "none", "current_border_width": 0, "rect": { "x": 0, "y": 0, "width": 635, "height": 1049 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "name": "__i3", "window": null, "nodes": [ { "id": 2147483646, "type": "workspace", "orientation": "horizontal", "percent": null, "urgent": false, "marks": [ ], "focused": false, "layout": "splith", "border": "none", "current_border_width": 0, "rect": { "x": 0, "y": 0, "width": 635, "height": 1049 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "name": "__i3_scratch", "window": null, "nodes": [ ], "floating_nodes": [ ], "focus": [ ], "fullscreen_mode": 1, "sticky": false } ], "floating_nodes": [ ], "focus": [ 2147483646 ], "fullscreen_mode": 0, "sticky": false }, { "id": 3, "type": "output", "orientation": "none", "percent": 1.0, "urgent": false, "marks": [ ], "focused": false, "layout": "output", "border": "none", "current_border_width": 0, "rect": { "x": 0, "y": 0, "width": 635, "height": 1049 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "name": "WL-1", "window": null, "nodes": [ { "id": 4, "type": "workspace", "orientation": "horizontal", "percent": null, "urgent": false, "marks": [ ], "focused": true, "layout": "splith", "border": "none", "current_border_width": 0, "rect": { "x": 2, "y": 2, "width": 631, "height": 1045 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "name": "1", "window": null, "nodes": [ ], "floating_nodes": [ ], "focus": [ ], "fullscreen_mode": 1, "sticky": false, "num": 1, "output": "WL-1", "representation": null } ], "floating_nodes": [ ], "focus": [ 4 ], "fullscreen_mode": 0, "sticky": false, "active": true, "dpms": true, "primary": false, "make": "wayland", "model": "wayland", "serial": "", "scale": 1.0, "scale_filter": "nearest", "transform": "normal", "adaptive_sync_status": "disabled", "current_workspace": "1", "modes": [ ], "current_mode": { "width": 635, "height": 1049, "refresh": 0 }, "max_render_time": 0 } ], "floating_nodes": [ ], "focus": [ 3 ], "fullscreen_mode": 0, "sticky": false }
+00:00:00.434 [DEBUG] [sway/ipc-server.c:535] Client 41 writable
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86BrightnessAuto
+> Warning:          Could not resolve keysym XF86DisplayOff
+> Warning:          Could not resolve keysym XF86Info
+> Warning:          Could not resolve keysym XF86AspectRatio
+> Warning:          Could not resolve keysym XF86DVD
+> Warning:          Could not resolve keysym XF86Audio
+> Warning:          Could not resolve keysym XF86ChannelUp
+> Warning:          Could not resolve keysym XF86ChannelDown
+> Warning:          Could not resolve keysym XF86Break
+> Warning:          Could not resolve keysym XF86VideoPhone
+> Warning:          Could not resolve keysym XF86ZoomReset
+> Warning:          Could not resolve keysym XF86Editor
+> Warning:          Could not resolve keysym XF86GraphicsEditor
+> Warning:          Could not resolve keysym XF86Presentation
+> Warning:          Could not resolve keysym XF86Database
+> Warning:          Could not resolve keysym XF86Voicemail
+> Warning:          Could not resolve keysym XF86Addressbook
+> Warning:          Could not resolve keysym XF86DisplayToggle
+> Warning:          Could not resolve keysym XF86SpellCheck
+> Warning:          Could not resolve keysym XF86ContextMenu
+> Warning:          Could not resolve keysym XF86MediaRepeat
+> Warning:          Could not resolve keysym XF8610ChannelsUp
+> Warning:          Could not resolve keysym XF8610ChannelsDown
+> Warning:          Could not resolve keysym XF86Images
+> Warning:          Could not resolve keysym XF86NotificationCenter
+> Warning:          Could not resolve keysym XF86PickupPhone
+> Warning:          Could not resolve keysym XF86HangupPhone
+> Warning:          Could not resolve keysym XF86Fn
+> Warning:          Could not resolve keysym XF86Fn_Esc
+> Warning:          Could not resolve keysym XF86FnRightShift
+> Warning:          Could not resolve keysym XF86Numeric0
+> Warning:          Could not resolve keysym XF86Numeric1
+> Warning:          Could not resolve keysym XF86Numeric2
+> Warning:          Could not resolve keysym XF86Numeric3
+> Warning:          Could not resolve keysym XF86Numeric4
+> Warning:          Could not resolve keysym XF86Numeric5
+> Warning:          Could not resolve keysym XF86Numeric6
+> Warning:          Could not resolve keysym XF86Numeric7
+> Warning:          Could not resolve keysym XF86Numeric8
+> Warning:          Could not resolve keysym XF86Numeric9
+> Warning:          Could not resolve keysym XF86NumericStar
+> Warning:          Could not resolve keysym XF86NumericPound
+> Warning:          Could not resolve keysym XF86NumericA
+> Warning:          Could not resolve keysym XF86NumericB
+> Warning:          Could not resolve keysym XF86NumericC
+> Warning:          Could not resolve keysym XF86NumericD
+> Warning:          Could not resolve keysym XF86CameraFocus
+> Warning:          Could not resolve keysym XF86WPSButton
+> Warning:          Could not resolve keysym XF86CameraZoomIn
+> Warning:          Could not resolve keysym XF86CameraZoomOut
+> Warning:          Could not resolve keysym XF86CameraUp
+> Warning:          Could not resolve keysym XF86CameraDown
+> Warning:          Could not resolve keysym XF86CameraLeft
+> Warning:          Could not resolve keysym XF86CameraRight
+> Warning:          Could not resolve keysym XF86AttendantOn
+> Warning:          Could not resolve keysym XF86AttendantOff
+> Warning:          Could not resolve keysym XF86AttendantToggle
+> Warning:          Could not resolve keysym XF86LightsToggle
+> Warning:          Could not resolve keysym XF86ALSToggle
+> Warning:          Could not resolve keysym XF86Buttonconfig
+> Warning:          Could not resolve keysym XF86Taskmanager
+> Warning:          Could not resolve keysym XF86Journal
+> Warning:          Could not resolve keysym XF86ControlPanel
+> Warning:          Could not resolve keysym XF86AppSelect
+> Warning:          Could not resolve keysym XF86Screensaver
+> Warning:          Could not resolve keysym XF86VoiceCommand
+> Warning:          Could not resolve keysym XF86Assistant
+> Warning:          Could not resolve keysym XF86BrightnessMin
+> Warning:          Could not resolve keysym XF86BrightnessMax
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrev
+> Warning:          Could not resolve keysym XF86KbdInputAssistNext
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistAccept
+> Warning:          Could not resolve keysym XF86KbdInputAssistCancel
+> Warning:          Could not resolve keysym XF86RightUp
+> Warning:          Could not resolve keysym XF86RightDown
+> Warning:          Could not resolve keysym XF86LeftUp
+> Warning:          Could not resolve keysym XF86LeftDown
+> Warning:          Could not resolve keysym XF86RootMenu
+> Warning:          Could not resolve keysym XF86MediaTopMenu
+> Warning:          Could not resolve keysym XF86Numeric11
+> Warning:          Could not resolve keysym XF86Numeric12
+> Warning:          Could not resolve keysym XF86AudioDesc
+> Warning:          Could not resolve keysym XF863DMode
+> Warning:          Could not resolve keysym XF86NextFavorite
+> Warning:          Could not resolve keysym XF86StopRecord
+> Warning:          Could not resolve keysym XF86PauseRecord
+> Warning:          Could not resolve keysym XF86VOD
+> Warning:          Could not resolve keysym XF86Unmute
+> Warning:          Could not resolve keysym XF86FastReverse
+> Warning:          Could not resolve keysym XF86SlowReverse
+> Warning:          Could not resolve keysym XF86Data
+> Warning:          Could not resolve keysym XF86OnScreenKeyboard
+> Warning:          Could not resolve keysym XF86PrivacyScreenToggle
+> Warning:          Could not resolve keysym XF86SelectiveScreenshot
+> Warning:          Could not resolve keysym XF86Macro1
+> Warning:          Could not resolve keysym XF86Macro2
+> Warning:          Could not resolve keysym XF86Macro3
+> Warning:          Could not resolve keysym XF86Macro4
+> Warning:          Could not resolve keysym XF86Macro5
+> Warning:          Could not resolve keysym XF86Macro6
+> Warning:          Could not resolve keysym XF86Macro7
+> Warning:          Could not resolve keysym XF86Macro8
+> Warning:          Could not resolve keysym XF86Macro9
+> Warning:          Could not resolve keysym XF86Macro10
+> Warning:          Could not resolve keysym XF86Macro11
+> Warning:          Could not resolve keysym XF86Macro12
+> Warning:          Could not resolve keysym XF86Macro13
+> Warning:          Could not resolve keysym XF86Macro14
+> Warning:          Could not resolve keysym XF86Macro15
+> Warning:          Could not resolve keysym XF86Macro16
+> Warning:          Could not resolve keysym XF86Macro17
+> Warning:          Could not resolve keysym XF86Macro18
+> Warning:          Could not resolve keysym XF86Macro19
+> Warning:          Could not resolve keysym XF86Macro20
+> Warning:          Could not resolve keysym XF86Macro21
+> Warning:          Could not resolve keysym XF86Macro22
+> Warning:          Could not resolve keysym XF86Macro23
+> Warning:          Could not resolve keysym XF86Macro24
+> Warning:          Could not resolve keysym XF86Macro25
+> Warning:          Could not resolve keysym XF86Macro26
+> Warning:          Could not resolve keysym XF86Macro27
+> Warning:          Could not resolve keysym XF86Macro28
+> Warning:          Could not resolve keysym XF86Macro29
+> Warning:          Could not resolve keysym XF86Macro30
+> Warning:          Could not resolve keysym XF86MacroRecordStart
+> Warning:          Could not resolve keysym XF86MacroRecordStop
+> Warning:          Could not resolve keysym XF86MacroPresetCycle
+> Warning:          Could not resolve keysym XF86MacroPreset1
+> Warning:          Could not resolve keysym XF86MacroPreset2
+> Warning:          Could not resolve keysym XF86MacroPreset3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu1
+> Warning:          Could not resolve keysym XF86KbdLcdMenu2
+> Warning:          Could not resolve keysym XF86KbdLcdMenu3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu4
+> Warning:          Could not resolve keysym XF86KbdLcdMenu5
+Errors from xkbcomp are not fatal to the X server
+00:00:00.450 [DEBUG] [wlr] [types/wlr_surface.c:743] New wlr_surface 0x558111fb9270 (res 0x558111ff90a0)
+00:00:00.451 [DEBUG] [wlr] [xwayland/server.c:259] Xserver is ready
+00:00:00.452 [DEBUG] [wlr] [xwayland/xwm.c:1740] xfixes version: 5.0
+00:00:00.452 [DEBUG] [wlr] [xwayland/xwm.c:1760] xres version: 1.2
+00:00:00.458 [DEBUG] [sway/input/cursor.c:900] denying request to set cursor from unfocused client
+00:00:00.458 [DEBUG] [wlr] [types/wlr_relative_pointer_v1.c:145] relative_pointer_v1 0x558111cf9a70 created for client 0x558111fdec90
+00:00:00.458 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.458 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.458 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.458 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.458 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.458 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.458 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.458 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.458 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.458 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.458 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+
+** (waybar:19252): WARNING **: 13:40:29.386: gtk-layer-shell v0.6.0 may not work on GTK v3.24.30. If you experience crashes, check https://github.com/wmww/gtk-layer-shell/blob/master/compatibility.md
+00:00:00.464 [DEBUG] [wlr] [types/wlr_surface.c:743] New wlr_surface 0x558111fd4f90 (res 0x558111fcfe50)
+00:00:00.464 [DEBUG] [wlr] [types/wlr_layer_shell_v1.c:471] new layer_surface 0x558111fee580 (res 0x558111fd4e30)
+00:00:00.464 [DEBUG] [sway/desktop/layer_shell.c:598] new layer surface: namespace waybar layer 2 anchor 13 size 0x25 margin 0,0,0,0,
+00:00:00.464 [DEBUG] [sway/desktop/layer_shell.c:197] Usable area changed, rearranging output
+00:00:00.464 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 635x1024@0,25
+00:00:00.464 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:00.464 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111d273a0 committing with 1 instructions
+00:00:00.464 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111d273a0
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86BrightnessAuto
+> Warning:          Could not resolve keysym XF86DisplayOff
+> Warning:          Could not resolve keysym XF86Info
+> Warning:          Could not resolve keysym XF86AspectRatio
+> Warning:          Could not resolve keysym XF86DVD
+> Warning:          Could not resolve keysym XF86Audio
+> Warning:          Could not resolve keysym XF86ChannelUp
+> Warning:          Could not resolve keysym XF86ChannelDown
+> Warning:          Could not resolve keysym XF86Break
+> Warning:          Could not resolve keysym XF86VideoPhone
+> Warning:          Could not resolve keysym XF86ZoomReset
+> Warning:          Could not resolve keysym XF86Editor
+> Warning:          Could not resolve keysym XF86GraphicsEditor
+> Warning:          Could not resolve keysym XF86Presentation
+> Warning:          Could not resolve keysym XF86Database
+> Warning:          Could not resolve keysym XF86Voicemail
+> Warning:          Could not resolve keysym XF86Addressbook
+> Warning:          Could not resolve keysym XF86DisplayToggle
+> Warning:          Could not resolve keysym XF86SpellCheck
+> Warning:          Could not resolve keysym XF86ContextMenu
+> Warning:          Could not resolve keysym XF86MediaRepeat
+> Warning:          Could not resolve keysym XF8610ChannelsUp
+> Warning:          Could not resolve keysym XF8610ChannelsDown
+> Warning:          Could not resolve keysym XF86Images
+> Warning:          Could not resolve keysym XF86NotificationCenter
+> Warning:          Could not resolve keysym XF86PickupPhone
+> Warning:          Could not resolve keysym XF86HangupPhone
+> Warning:          Could not resolve keysym XF86Fn
+> Warning:          Could not resolve keysym XF86Fn_Esc
+> Warning:          Could not resolve keysym XF86FnRightShift
+> Warning:          Could not resolve keysym XF86Numeric0
+> Warning:          Could not resolve keysym XF86Numeric1
+> Warning:          Could not resolve keysym XF86Numeric2
+> Warning:          Could not resolve keysym XF86Numeric3
+> Warning:          Could not resolve keysym XF86Numeric4
+> Warning:          Could not resolve keysym XF86Numeric5
+> Warning:          Could not resolve keysym XF86Numeric6
+> Warning:          Could not resolve keysym XF86Numeric7
+> Warning:          Could not resolve keysym XF86Numeric8
+> Warning:          Could not resolve keysym XF86Numeric9
+> Warning:          Could not resolve keysym XF86NumericStar
+> Warning:          Could not resolve keysym XF86NumericPound
+> Warning:          Could not resolve keysym XF86NumericA
+> Warning:          Could not resolve keysym XF86NumericB
+> Warning:          Could not resolve keysym XF86NumericC
+> Warning:          Could not resolve keysym XF86NumericD
+> Warning:          Could not resolve keysym XF86CameraFocus
+> Warning:          Could not resolve keysym XF86WPSButton
+> Warning:          Could not resolve keysym XF86CameraZoomIn
+> Warning:          Could not resolve keysym XF86CameraZoomOut
+> Warning:          Could not resolve keysym XF86CameraUp
+> Warning:          Could not resolve keysym XF86CameraDown
+> Warning:          Could not resolve keysym XF86CameraLeft
+> Warning:          Could not resolve keysym XF86CameraRight
+> Warning:          Could not resolve keysym XF86AttendantOn
+> Warning:          Could not resolve keysym XF86AttendantOff
+> Warning:          Could not resolve keysym XF86AttendantToggle
+> Warning:          Could not resolve keysym XF86LightsToggle
+> Warning:          Could not resolve keysym XF86ALSToggle
+> Warning:          Could not resolve keysym XF86Buttonconfig
+> Warning:          Could not resolve keysym XF86Taskmanager
+> Warning:          Could not resolve keysym XF86Journal
+> Warning:          Could not resolve keysym XF86ControlPanel
+> Warning:          Could not resolve keysym XF86AppSelect
+> Warning:          Could not resolve keysym XF86Screensaver
+> Warning:          Could not resolve keysym XF86VoiceCommand
+> Warning:          Could not resolve keysym XF86Assistant
+> Warning:          Could not resolve keysym XF86BrightnessMin
+> Warning:          Could not resolve keysym XF86BrightnessMax
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrev
+> Warning:          Could not resolve keysym XF86KbdInputAssistNext
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistAccept
+> Warning:          Could not resolve keysym XF86KbdInputAssistCancel
+> Warning:          Could not resolve keysym XF86RightUp
+> Warning:          Could not resolve keysym XF86RightDown
+> Warning:          Could not resolve keysym XF86LeftUp
+> Warning:          Could not resolve keysym XF86LeftDown
+> Warning:          Could not resolve keysym XF86RootMenu
+> Warning:          Could not resolve keysym XF86MediaTopMenu
+> Warning:          Could not resolve keysym XF86Numeric11
+> Warning:          Could not resolve keysym XF86Numeric12
+> Warning:          Could not resolve keysym XF86AudioDesc
+> Warning:          Could not resolve keysym XF863DMode
+> Warning:          Could not resolve keysym XF86NextFavorite
+> Warning:          Could not resolve keysym XF86StopRecord
+> Warning:          Could not resolve keysym XF86PauseRecord
+> Warning:          Could not resolve keysym XF86VOD
+> Warning:          Could not resolve keysym XF86Unmute
+> Warning:          Could not resolve keysym XF86FastReverse
+> Warning:          Could not resolve keysym XF86SlowReverse
+> Warning:          Could not resolve keysym XF86Data
+> Warning:          Could not resolve keysym XF86OnScreenKeyboard
+> Warning:          Could not resolve keysym XF86PrivacyScreenToggle
+> Warning:          Could not resolve keysym XF86SelectiveScreenshot
+> Warning:          Could not resolve keysym XF86Macro1
+> Warning:          Could not resolve keysym XF86Macro2
+> Warning:          Could not resolve keysym XF86Macro3
+> Warning:          Could not resolve keysym XF86Macro4
+> Warning:          Could not resolve keysym XF86Macro5
+> Warning:          Could not resolve keysym XF86Macro6
+> Warning:          Could not resolve keysym XF86Macro7
+> Warning:          Could not resolve keysym XF86Macro8
+> Warning:          Could not resolve keysym XF86Macro9
+> Warning:          Could not resolve keysym XF86Macro10
+> Warning:          Could not resolve keysym XF86Macro11
+> Warning:          Could not resolve keysym XF86Macro12
+> Warning:          Could not resolve keysym XF86Macro13
+> Warning:          Could not resolve keysym XF86Macro14
+> Warning:          Could not resolve keysym XF86Macro15
+> Warning:          Could not resolve keysym XF86Macro16
+> Warning:          Could not resolve keysym XF86Macro17
+> Warning:          Could not resolve keysym XF86Macro18
+> Warning:          Could not resolve keysym XF86Macro19
+> Warning:          Could not resolve keysym XF86Macro20
+> Warning:          Could not resolve keysym XF86Macro21
+> Warning:          Could not resolve keysym XF86Macro22
+> Warning:          Could not resolve keysym XF86Macro23
+> Warning:          Could not resolve keysym XF86Macro24
+> Warning:          Could not resolve keysym XF86Macro25
+> Warning:          Could not resolve keysym XF86Macro26
+> Warning:          Could not resolve keysym XF86Macro27
+> Warning:          Could not resolve keysym XF86Macro28
+> Warning:          Could not resolve keysym XF86Macro29
+> Warning:          Could not resolve keysym XF86Macro30
+> Warning:          Could not resolve keysym XF86MacroRecordStart
+> Warning:          Could not resolve keysym XF86MacroRecordStop
+> Warning:          Could not resolve keysym XF86MacroPresetCycle
+> Warning:          Could not resolve keysym XF86MacroPreset1
+> Warning:          Could not resolve keysym XF86MacroPreset2
+> Warning:          Could not resolve keysym XF86MacroPreset3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu1
+> Warning:          Could not resolve keysym XF86KbdLcdMenu2
+> Warning:          Could not resolve keysym XF86KbdLcdMenu3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu4
+> Warning:          Could not resolve keysym XF86KbdLcdMenu5
+Errors from xkbcomp are not fatal to the X server
+00:00:00.470 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.470 [DEBUG] [wlr] [xwayland/xwm.c:1475] unhandled X11 event: MappingNotify (34)
+00:00:00.470 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.470 [DEBUG] [wlr] [xwayland/xwm.c:1475] unhandled X11 event: MappingNotify (34)
+00:00:00.485 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.487 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.487 [DEBUG] [sway/desktop/xwayland.c:683] New xwayland surface title='(null)' class='(null)'
+00:00:00.487 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.487 [DEBUG] [wlr] [xwayland/xwm.c:796] unhandled X11 property 34 (WM_COMMAND) for window 8388609
+00:00:00.487 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.487 [DEBUG] [wlr] [xwayland/xwm.c:796] unhandled X11 property 36 (WM_CLIENT_MACHINE) for window 8388609
+00:00:00.487 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.487 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.487 [DEBUG] [wlr] [xwayland/xwm.c:796] unhandled X11 property 316 (WM_LOCALE_NAME) for window 8388609
+00:00:00.487 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:00.536 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+
+** (waybar:19252): WARNING **: 13:40:29.511: Status Notifier Item with bus name ':1.10' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+00:00:00.590 [DEBUG] [wlr] [GLES2] FS SIMD8 shader: 13 inst, 0 loops, 828 cycles, 0:0 spills:fills, 2 sends, scheduled with mode top-down, Promoted 0 constants, compacted 208 to 160 bytes.
+00:00:00.591 [DEBUG] [wlr] [GLES2] FS SIMD16 shader: 14 inst, 0 loops, 848 cycles, 0:0 spills:fills, 2 sends, scheduled with mode top-down, Promoted 0 constants, compacted 224 to 176 bytes.
+Welcome app is disabled. To start it anyway, use option --enable.
+
+(tracker-miner-fs-3:19336): Tracker-CRITICAL **: 13:40:30.396: Could not request DBus name 'org.freedesktop.Tracker3.Miner.Files': D-Bus service name:'org.freedesktop.Tracker3.Miner.Files' is already taken, perhaps the application is already running?
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86BrightnessAuto
+> Warning:          Could not resolve keysym XF86DisplayOff
+> Warning:          Could not resolve keysym XF86Info
+> Warning:          Could not resolve keysym XF86AspectRatio
+> Warning:          Could not resolve keysym XF86DVD
+> Warning:          Could not resolve keysym XF86Audio
+> Warning:          Could not resolve keysym XF86ChannelUp
+> Warning:          Could not resolve keysym XF86ChannelDown
+> Warning:          Could not resolve keysym XF86Break
+> Warning:          Could not resolve keysym XF86VideoPhone
+> Warning:          Could not resolve keysym XF86ZoomReset
+> Warning:          Could not resolve keysym XF86Editor
+> Warning:          Could not resolve keysym XF86GraphicsEditor
+> Warning:          Could not resolve keysym XF86Presentation
+> Warning:          Could not resolve keysym XF86Database
+> Warning:          Could not resolve keysym XF86Voicemail
+> Warning:          Could not resolve keysym XF86Addressbook
+> Warning:          Could not resolve keysym XF86DisplayToggle
+> Warning:          Could not resolve keysym XF86SpellCheck
+> Warning:          Could not resolve keysym XF86ContextMenu
+> Warning:          Could not resolve keysym XF86MediaRepeat
+> Warning:          Could not resolve keysym XF8610ChannelsUp
+> Warning:          Could not resolve keysym XF8610ChannelsDown
+> Warning:          Could not resolve keysym XF86Images
+> Warning:          Could not resolve keysym XF86NotificationCenter
+> Warning:          Could not resolve keysym XF86PickupPhone
+> Warning:          Could not resolve keysym XF86HangupPhone
+> Warning:          Could not resolve keysym XF86Fn
+> Warning:          Could not resolve keysym XF86Fn_Esc
+> Warning:          Could not resolve keysym XF86FnRightShift
+> Warning:          Could not resolve keysym XF86Numeric0
+> Warning:          Could not resolve keysym XF86Numeric1
+> Warning:          Could not resolve keysym XF86Numeric2
+> Warning:          Could not resolve keysym XF86Numeric3
+> Warning:          Could not resolve keysym XF86Numeric4
+> Warning:          Could not resolve keysym XF86Numeric5
+> Warning:          Could not resolve keysym XF86Numeric6
+> Warning:          Could not resolve keysym XF86Numeric7
+> Warning:          Could not resolve keysym XF86Numeric8
+> Warning:          Could not resolve keysym XF86Numeric9
+> Warning:          Could not resolve keysym XF86NumericStar
+> Warning:          Could not resolve keysym XF86NumericPound
+> Warning:          Could not resolve keysym XF86NumericA
+> Warning:          Could not resolve keysym XF86NumericB
+> Warning:          Could not resolve keysym XF86NumericC
+> Warning:          Could not resolve keysym XF86NumericD
+> Warning:          Could not resolve keysym XF86CameraFocus
+> Warning:          Could not resolve keysym XF86WPSButton
+> Warning:          Could not resolve keysym XF86CameraZoomIn
+> Warning:          Could not resolve keysym XF86CameraZoomOut
+> Warning:          Could not resolve keysym XF86CameraUp
+> Warning:          Could not resolve keysym XF86CameraDown
+> Warning:          Could not resolve keysym XF86CameraLeft
+> Warning:          Could not resolve keysym XF86CameraRight
+> Warning:          Could not resolve keysym XF86AttendantOn
+> Warning:          Could not resolve keysym XF86AttendantOff
+> Warning:          Could not resolve keysym XF86AttendantToggle
+> Warning:          Could not resolve keysym XF86LightsToggle
+> Warning:          Could not resolve keysym XF86ALSToggle
+> Warning:          Could not resolve keysym XF86Buttonconfig
+> Warning:          Could not resolve keysym XF86Taskmanager
+> Warning:          Could not resolve keysym XF86Journal
+> Warning:          Could not resolve keysym XF86ControlPanel
+> Warning:          Could not resolve keysym XF86AppSelect
+> Warning:          Could not resolve keysym XF86Screensaver
+> Warning:          Could not resolve keysym XF86VoiceCommand
+> Warning:          Could not resolve keysym XF86Assistant
+> Warning:          Could not resolve keysym XF86BrightnessMin
+> Warning:          Could not resolve keysym XF86BrightnessMax
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrev
+> Warning:          Could not resolve keysym XF86KbdInputAssistNext
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistAccept
+> Warning:          Could not resolve keysym XF86KbdInputAssistCancel
+> Warning:          Could not resolve keysym XF86RightUp
+> Warning:          Could not resolve keysym XF86RightDown
+> Warning:          Could not resolve keysym XF86LeftUp
+> Warning:          Could not resolve keysym XF86LeftDown
+> Warning:          Could not resolve keysym XF86RootMenu
+> Warning:          Could not resolve keysym XF86MediaTopMenu
+> Warning:          Could not resolve keysym XF86Numeric11
+> Warning:          Could not resolve keysym XF86Numeric12
+> Warning:          Could not resolve keysym XF86AudioDesc
+> Warning:          Could not resolve keysym XF863DMode
+> Warning:          Could not resolve keysym XF86NextFavorite
+> Warning:          Could not resolve keysym XF86StopRecord
+> Warning:          Could not resolve keysym XF86PauseRecord
+> Warning:          Could not resolve keysym XF86VOD
+> Warning:          Could not resolve keysym XF86Unmute
+> Warning:          Could not resolve keysym XF86FastReverse
+> Warning:          Could not resolve keysym XF86SlowReverse
+> Warning:          Could not resolve keysym XF86Data
+> Warning:          Could not resolve keysym XF86OnScreenKeyboard
+> Warning:          Could not resolve keysym XF86PrivacyScreenToggle
+> Warning:          Could not resolve keysym XF86SelectiveScreenshot
+> Warning:          Could not resolve keysym XF86Macro1
+> Warning:          Could not resolve keysym XF86Macro2
+> Warning:          Could not resolve keysym XF86Macro3
+> Warning:          Could not resolve keysym XF86Macro4
+> Warning:          Could not resolve keysym XF86Macro5
+> Warning:          Could not resolve keysym XF86Macro6
+> Warning:          Could not resolve keysym XF86Macro7
+> Warning:          Could not resolve keysym XF86Macro8
+> Warning:          Could not resolve keysym XF86Macro9
+> Warning:          Could not resolve keysym XF86Macro10
+> Warning:          Could not resolve keysym XF86Macro11
+> Warning:          Could not resolve keysym XF86Macro12
+> Warning:          Could not resolve keysym XF86Macro13
+> Warning:          Could not resolve keysym XF86Macro14
+> Warning:          Could not resolve keysym XF86Macro15
+> Warning:          Could not resolve keysym XF86Macro16
+> Warning:          Could not resolve keysym XF86Macro17
+> Warning:          Could not resolve keysym XF86Macro18
+> Warning:          Could not resolve keysym XF86Macro19
+> Warning:          Could not resolve keysym XF86Macro20
+> Warning:          Could not resolve keysym XF86Macro21
+> Warning:          Could not resolve keysym XF86Macro22
+> Warning:          Could not resolve keysym XF86Macro23
+> Warning:          Could not resolve keysym XF86Macro24
+> Warning:          Could not resolve keysym XF86Macro25
+> Warning:          Could not resolve keysym XF86Macro26
+> Warning:          Could not resolve keysym XF86Macro27
+> Warning:          Could not resolve keysym XF86Macro28
+> Warning:          Could not resolve keysym XF86Macro29
+> Warning:          Could not resolve keysym XF86Macro30
+> Warning:          Could not resolve keysym XF86MacroRecordStart
+> Warning:          Could not resolve keysym XF86MacroRecordStop
+> Warning:          Could not resolve keysym XF86MacroPresetCycle
+> Warning:          Could not resolve keysym XF86MacroPreset1
+> Warning:          Could not resolve keysym XF86MacroPreset2
+> Warning:          Could not resolve keysym XF86MacroPreset3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu1
+> Warning:          Could not resolve keysym XF86KbdLcdMenu2
+> Warning:          Could not resolve keysym XF86KbdLcdMenu3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu4
+> Warning:          Could not resolve keysym XF86KbdLcdMenu5
+Errors from xkbcomp are not fatal to the X server
+00:00:06.550 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:06.550 [DEBUG] [wlr] [xwayland/xwm.c:1475] unhandled X11 event: MappingNotify (34)
+00:00:06.550 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:06.550 [DEBUG] [wlr] [xwayland/xwm.c:1475] unhandled X11 event: MappingNotify (34)
+00:00:07.004 [DEBUG] [sway/desktop/layer_shell.c:197] Usable area changed, rearranging output
+00:00:07.004 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 476x1024@0,25
+00:00:07.004 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:07.004 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 476x1024@0,25
+00:00:07.004 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:07.004 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111d12720 committing with 1 instructions
+00:00:07.004 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111d12720
+00:00:07.004 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 476x1024@0,25
+00:00:07.004 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:07.004 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111d12720 committing with 1 instructions
+00:00:07.004 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111d12720
+00:00:07.004 [DEBUG] [wlr] [types/wlr_output.c:505] Choosing primary buffer format 0x34325241 for output 'WL-1'
+00:00:07.004 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:07.005 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 476x1049 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:07.005 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 476x1049
+00:00:07.022 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:07.023 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 476x1049 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:07.023 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 476x1049
+00:00:21.211 [DEBUG] [sway/desktop/layer_shell.c:197] Usable area changed, rearranging output
+00:00:21.211 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 236x1024@0,25
+00:00:21.211 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:21.211 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 236x1024@0,25
+00:00:21.211 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:21.211 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111d51fa0 committing with 1 instructions
+00:00:21.211 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111d51fa0
+00:00:21.211 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 236x1024@0,25
+00:00:21.211 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:21.211 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111d42fa0 committing with 1 instructions
+00:00:21.211 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111d42fa0
+00:00:21.211 [DEBUG] [wlr] [types/wlr_output.c:505] Choosing primary buffer format 0x34325241 for output 'WL-1'
+00:00:21.211 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:21.211 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 236x1049 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:21.212 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 236x1049
+00:00:21.237 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:21.237 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 236x1049 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:21.237 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 236x1049
+00:00:28.348 [DEBUG] [sway/desktop/layer_shell.c:197] Usable area changed, rearranging output
+00:00:28.348 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 476x1024@0,25
+00:00:28.348 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:28.348 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 476x1024@0,25
+00:00:28.348 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:28.348 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111eafce0 committing with 1 instructions
+00:00:28.348 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111eafce0
+00:00:28.348 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 476x1024@0,25
+00:00:28.348 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:28.348 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111eafce0 committing with 1 instructions
+00:00:28.348 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111eafce0
+00:00:28.348 [DEBUG] [wlr] [types/wlr_output.c:505] Choosing primary buffer format 0x34325241 for output 'WL-1'
+00:00:28.348 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:28.349 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 476x1049 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:28.349 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 476x1049
+00:00:28.370 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:28.370 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 476x1049 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:28.370 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 476x1049
+00:00:29.494 [DEBUG] [sway/desktop/layer_shell.c:197] Usable area changed, rearranging output
+00:00:29.494 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 635x1024@0,25
+00:00:29.494 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:29.494 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 635x1024@0,25
+00:00:29.494 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:29.494 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111fb7700 committing with 1 instructions
+00:00:29.494 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111fb7700
+00:00:29.494 [DEBUG] [sway/tree/arrange.c:263] Usable area for ws: 635x1024@0,25
+00:00:29.494 [DEBUG] [sway/tree/arrange.c:293] Arranging workspace '1' at 2.000000, 27.000000
+00:00:29.494 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111fd4c50 committing with 1 instructions
+00:00:29.494 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111fd4c50
+00:00:29.494 [DEBUG] [wlr] [types/wlr_output.c:505] Choosing primary buffer format 0x34325241 for output 'WL-1'
+00:00:29.494 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:29.496 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 635x1049 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:29.496 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 635x1049
+00:00:29.520 [DEBUG] [wlr] [render/swapchain.c:105] Allocating new swapchain buffer
+00:00:29.521 [DEBUG] [wlr] [render/gbm_allocator.c:127] Allocated 635x1049 GBM buffer (format 0x34325241, modifier 0x100000000000002)
+00:00:29.522 [DEBUG] [wlr] [render/gles2/renderer.c:136] Created GL FBO for buffer 635x1049
+00:00:38.161 [DEBUG] [wlr] [types/wlr_surface.c:743] New wlr_surface 0x558111fec170 (res 0x558111cdeb50)
+00:00:38.161 [DEBUG] [wlr] [types/wlr_surface.c:743] New wlr_surface 0x558111fd7e30 (res 0x558111cfaa30)
+00:00:38.161 [DEBUG] [wlr] [types/xdg_shell/wlr_xdg_surface.c:465] new xdg_surface 0x558111fd7b40 (res 0x558111cfd590)
+00:00:38.161 [DEBUG] [sway/desktop/xdg_shell.c:519] New xdg_shell popup
+00:00:38.721 [DEBUG] [wlr] [types/wlr_output.c:1403] Falling back to software cursor on output 'WL-1'
+00:00:38.722 [DEBUG] [sway/input/cursor.c:900] denying request to set cursor from unfocused client
+00:00:38.933 [DEBUG] [sway/input/cursor.c:900] denying request to set cursor from unfocused client
+00:00:45.842 [DEBUG] [sway/tree/output.c:264] Disabling output 'WL-1'
+00:00:45.842 [DEBUG] [sway/tree/workspace.c:143] Destroying workspace '1'
+00:00:45.842 [DEBUG] [sway/ipc-server.c:306] Sending workspace::empty event
+00:00:45.842 [DEBUG] [sway/ipc-server.c:958] Added IPC reply of type 0x80000000 to client 27 queue: { "change": "empty", "old": null, "current": { "id": 4, "type": "workspace", "orientation": "horizontal", "percent": null, "urgent": false, "marks": [ ], "focused": true, "layout": "splith", "border": "none", "current_border_width": 0, "rect": { "x": 2, "y": 27, "width": 631, "height": 1020 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "name": "1", "window": null, "nodes": [ ], "floating_nodes": [ ], "focus": [ ], "fullscreen_mode": 1, "sticky": false, "num": 1, "output": null, "representation": null } }
+00:00:45.842 [DEBUG] [sway/ipc-server.c:958] Added IPC reply of type 0x80000000 to client 44 queue: { "change": "empty", "old": null, "current": { "id": 4, "type": "workspace", "orientation": "horizontal", "percent": null, "urgent": false, "marks": [ ], "focused": true, "layout": "splith", "border": "none", "current_border_width": 0, "rect": { "x": 2, "y": 27, "width": 631, "height": 1020 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "name": "1", "window": null, "nodes": [ ], "floating_nodes": [ ], "focus": [ ], "fullscreen_mode": 1, "sticky": false, "num": 1, "output": null, "representation": null } }
+00:00:45.842 [DEBUG] [sway/input/seat.c:709] Applying input config to 0:0:wayland-seat0
+00:00:45.842 [DEBUG] [sway/input/seat.c:739] Mapping input device 0:0:wayland-seat0 to output WL-1
+00:00:45.842 [DEBUG] [sway/input/seat.c:751] Requested output WL-1 for device 0:0:wayland-seat0 isn't present
+00:00:45.856 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111fe6050 committing with 2 instructions
+00:00:45.856 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111fe6050
+00:00:45.856 [DEBUG] [sway/tree/output.c:288] Destroying output 'WL-1'
+00:00:45.856 [DEBUG] [sway/desktop/transaction.c:398] Transaction 0x558111d273a0 committing with 1 instructions
+00:00:45.856 [DEBUG] [sway/desktop/transaction.c:294] Applying transaction 0x558111d273a0
+00:00:45.856 [DEBUG] [sway/input/input-manager.c:202] removing device: '0:0:wayland-seat0'
+00:00:45.856 [DEBUG] [sway/input/seat.c:950] removing device 0:0:wayland-seat0 from seat seat0
+2021-07-18 13:41:14 - [swaybg-1.0/main.c:351] Destroying output WL-1 ((null))
+00:00:45.857 [DEBUG] [sway/ipc-server.c:535] Client 27 writable
+00:00:45.857 [DEBUG] [sway/ipc-server.c:535] Client 44 writable
+00:00:45.857 [DEBUG] [sway/desktop/layer_shell.c:351] Layer surface destroyed (wallpaper)
+00:00:45.857 [DEBUG] [sway/ipc-server.c:219] Client 24 readable
+00:00:45.857 [DEBUG] [sway/ipc-server.c:958] Added IPC reply of type 0x1 to client 24 queue: [ ]
+00:00:45.857 [DEBUG] [sway/ipc-server.c:535] Client 24 writable
+00:00:45.857 [DEBUG] [sway/ipc-server.c:219] Client 41 readable
+00:00:45.857 [DEBUG] [sway/ipc-server.c:958] Added IPC reply of type 0x4 to client 41 queue: { "id": 1, "type": "root", "orientation": "horizontal", "percent": null, "urgent": false, "marks": [ ], "focused": false, "layout": "splith", "border": "none", "current_border_width": 0, "rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "name": "root", "window": null, "nodes": [ { "id": 2147483647, "type": "output", "orientation": "horizontal", "percent": null, "urgent": false, "marks": [ ], "focused": false, "layout": "output", "border": "none", "current_border_width": 0, "rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "name": "__i3", "window": null, "nodes": [ { "id": 2147483646, "type": "workspace", "orientation": "horizontal", "percent": null, "urgent": false, "marks": [ ], "focused": false, "layout": "splith", "border": "none", "current_border_width": 0, "rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "name": "__i3_scratch", "window": null, "nodes": [ ], "floating_nodes": [ ], "focus": [ ], "fullscreen_mode": 1, "sticky": false } ], "floating_nodes": [ ], "focus": [ 2147483646 ], "fullscreen_mode": 0, "sticky": false } ], "floating_nodes": [ ], "focus": [ ], "fullscreen_mode": 0, "sticky": false }
+00:00:45.857 [DEBUG] [sway/ipc-server.c:535] Client 41 writable
+terminate called without an active exception
+00:00:45.860 [DEBUG] [sway/desktop/layer_shell.c:351] Layer surface destroyed (waybar)
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86BrightnessAuto
+> Warning:          Could not resolve keysym XF86DisplayOff
+> Warning:          Could not resolve keysym XF86Info
+> Warning:          Could not resolve keysym XF86AspectRatio
+> Warning:          Could not resolve keysym XF86DVD
+> Warning:          Could not resolve keysym XF86Audio
+> Warning:          Could not resolve keysym XF86ChannelUp
+> Warning:          Could not resolve keysym XF86ChannelDown
+> Warning:          Could not resolve keysym XF86Break
+> Warning:          Could not resolve keysym XF86VideoPhone
+> Warning:          Could not resolve keysym XF86ZoomReset
+> Warning:          Could not resolve keysym XF86Editor
+> Warning:          Could not resolve keysym XF86GraphicsEditor
+> Warning:          Could not resolve keysym XF86Presentation
+> Warning:          Could not resolve keysym XF86Database
+> Warning:          Could not resolve keysym XF86Voicemail
+> Warning:          Could not resolve keysym XF86Addressbook
+> Warning:          Could not resolve keysym XF86DisplayToggle
+> Warning:          Could not resolve keysym XF86SpellCheck
+> Warning:          Could not resolve keysym XF86ContextMenu
+> Warning:          Could not resolve keysym XF86MediaRepeat
+> Warning:          Could not resolve keysym XF8610ChannelsUp
+> Warning:          Could not resolve keysym XF8610ChannelsDown
+> Warning:          Could not resolve keysym XF86Images
+> Warning:          Could not resolve keysym XF86NotificationCenter
+> Warning:          Could not resolve keysym XF86PickupPhone
+> Warning:          Could not resolve keysym XF86HangupPhone
+> Warning:          Could not resolve keysym XF86Fn
+> Warning:          Could not resolve keysym XF86Fn_Esc
+> Warning:          Could not resolve keysym XF86FnRightShift
+> Warning:          Could not resolve keysym XF86Numeric0
+> Warning:          Could not resolve keysym XF86Numeric1
+> Warning:          Could not resolve keysym XF86Numeric2
+> Warning:          Could not resolve keysym XF86Numeric3
+> Warning:          Could not resolve keysym XF86Numeric4
+> Warning:          Could not resolve keysym XF86Numeric5
+> Warning:          Could not resolve keysym XF86Numeric6
+> Warning:          Could not resolve keysym XF86Numeric7
+> Warning:          Could not resolve keysym XF86Numeric8
+> Warning:          Could not resolve keysym XF86Numeric9
+> Warning:          Could not resolve keysym XF86NumericStar
+> Warning:          Could not resolve keysym XF86NumericPound
+> Warning:          Could not resolve keysym XF86NumericA
+> Warning:          Could not resolve keysym XF86NumericB
+> Warning:          Could not resolve keysym XF86NumericC
+> Warning:          Could not resolve keysym XF86NumericD
+> Warning:          Could not resolve keysym XF86CameraFocus
+> Warning:          Could not resolve keysym XF86WPSButton
+> Warning:          Could not resolve keysym XF86CameraZoomIn
+> Warning:          Could not resolve keysym XF86CameraZoomOut
+> Warning:          Could not resolve keysym XF86CameraUp
+> Warning:          Could not resolve keysym XF86CameraDown
+> Warning:          Could not resolve keysym XF86CameraLeft
+> Warning:          Could not resolve keysym XF86CameraRight
+> Warning:          Could not resolve keysym XF86AttendantOn
+> Warning:          Could not resolve keysym XF86AttendantOff
+> Warning:          Could not resolve keysym XF86AttendantToggle
+> Warning:          Could not resolve keysym XF86LightsToggle
+> Warning:          Could not resolve keysym XF86ALSToggle
+> Warning:          Could not resolve keysym XF86Buttonconfig
+> Warning:          Could not resolve keysym XF86Taskmanager
+> Warning:          Could not resolve keysym XF86Journal
+> Warning:          Could not resolve keysym XF86ControlPanel
+> Warning:          Could not resolve keysym XF86AppSelect
+> Warning:          Could not resolve keysym XF86Screensaver
+> Warning:          Could not resolve keysym XF86VoiceCommand
+> Warning:          Could not resolve keysym XF86Assistant
+> Warning:          Could not resolve keysym XF86BrightnessMin
+> Warning:          Could not resolve keysym XF86BrightnessMax
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrev
+> Warning:          Could not resolve keysym XF86KbdInputAssistNext
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistAccept
+> Warning:          Could not resolve keysym XF86KbdInputAssistCancel
+> Warning:          Could not resolve keysym XF86RightUp
+> Warning:          Could not resolve keysym XF86RightDown
+> Warning:          Could not resolve keysym XF86LeftUp
+> Warning:          Could not resolve keysym XF86LeftDown
+> Warning:          Could not resolve keysym XF86RootMenu
+> Warning:          Could not resolve keysym XF86MediaTopMenu
+> Warning:          Could not resolve keysym XF86Numeric11
+> Warning:          Could not resolve keysym XF86Numeric12
+> Warning:          Could not resolve keysym XF86AudioDesc
+> Warning:          Could not resolve keysym XF863DMode
+> Warning:          Could not resolve keysym XF86NextFavorite
+> Warning:          Could not resolve keysym XF86StopRecord
+> Warning:          Could not resolve keysym XF86PauseRecord
+> Warning:          Could not resolve keysym XF86VOD
+> Warning:          Could not resolve keysym XF86Unmute
+> Warning:          Could not resolve keysym XF86FastReverse
+> Warning:          Could not resolve keysym XF86SlowReverse
+> Warning:          Could not resolve keysym XF86Data
+> Warning:          Could not resolve keysym XF86OnScreenKeyboard
+> Warning:          Could not resolve keysym XF86PrivacyScreenToggle
+> Warning:          Could not resolve keysym XF86SelectiveScreenshot
+> Warning:          Could not resolve keysym XF86Macro1
+> Warning:          Could not resolve keysym XF86Macro2
+> Warning:          Could not resolve keysym XF86Macro3
+> Warning:          Could not resolve keysym XF86Macro4
+> Warning:          Could not resolve keysym XF86Macro5
+> Warning:          Could not resolve keysym XF86Macro6
+> Warning:          Could not resolve keysym XF86Macro7
+> Warning:          Could not resolve keysym XF86Macro8
+> Warning:          Could not resolve keysym XF86Macro9
+> Warning:          Could not resolve keysym XF86Macro10
+> Warning:          Could not resolve keysym XF86Macro11
+> Warning:          Could not resolve keysym XF86Macro12
+> Warning:          Could not resolve keysym XF86Macro13
+> Warning:          Could not resolve keysym XF86Macro14
+> Warning:          Could not resolve keysym XF86Macro15
+> Warning:          Could not resolve keysym XF86Macro16
+> Warning:          Could not resolve keysym XF86Macro17
+> Warning:          Could not resolve keysym XF86Macro18
+> Warning:          Could not resolve keysym XF86Macro19
+> Warning:          Could not resolve keysym XF86Macro20
+> Warning:          Could not resolve keysym XF86Macro21
+> Warning:          Could not resolve keysym XF86Macro22
+> Warning:          Could not resolve keysym XF86Macro23
+> Warning:          Could not resolve keysym XF86Macro24
+> Warning:          Could not resolve keysym XF86Macro25
+> Warning:          Could not resolve keysym XF86Macro26
+> Warning:          Could not resolve keysym XF86Macro27
+> Warning:          Could not resolve keysym XF86Macro28
+> Warning:          Could not resolve keysym XF86Macro29
+> Warning:          Could not resolve keysym XF86Macro30
+> Warning:          Could not resolve keysym XF86MacroRecordStart
+> Warning:          Could not resolve keysym XF86MacroRecordStop
+> Warning:          Could not resolve keysym XF86MacroPresetCycle
+> Warning:          Could not resolve keysym XF86MacroPreset1
+> Warning:          Could not resolve keysym XF86MacroPreset2
+> Warning:          Could not resolve keysym XF86MacroPreset3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu1
+> Warning:          Could not resolve keysym XF86KbdLcdMenu2
+> Warning:          Could not resolve keysym XF86KbdLcdMenu3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu4
+> Warning:          Could not resolve keysym XF86KbdLcdMenu5
+Errors from xkbcomp are not fatal to the X server
+00:00:45.871 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:45.871 [DEBUG] [wlr] [xwayland/xwm.c:1475] unhandled X11 event: MappingNotify (34)
+00:00:45.871 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:45.871 [DEBUG] [wlr] [xwayland/xwm.c:1475] unhandled X11 event: MappingNotify (34)
+00:00:45.871 [DEBUG] [wlr] [types/wlr_relative_pointer_v1.c:65] relative_pointer_v1 (nil) released by client 0x558111fdec90
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86BrightnessAuto
+> Warning:          Could not resolve keysym XF86DisplayOff
+> Warning:          Could not resolve keysym XF86Info
+> Warning:          Could not resolve keysym XF86AspectRatio
+> Warning:          Could not resolve keysym XF86DVD
+> Warning:          Could not resolve keysym XF86Audio
+> Warning:          Could not resolve keysym XF86ChannelUp
+> Warning:          Could not resolve keysym XF86ChannelDown
+> Warning:          Could not resolve keysym XF86Break
+> Warning:          Could not resolve keysym XF86VideoPhone
+> Warning:          Could not resolve keysym XF86ZoomReset
+> Warning:          Could not resolve keysym XF86Editor
+> Warning:          Could not resolve keysym XF86GraphicsEditor
+> Warning:          Could not resolve keysym XF86Presentation
+> Warning:          Could not resolve keysym XF86Database
+> Warning:          Could not resolve keysym XF86Voicemail
+> Warning:          Could not resolve keysym XF86Addressbook
+> Warning:          Could not resolve keysym XF86DisplayToggle
+> Warning:          Could not resolve keysym XF86SpellCheck
+> Warning:          Could not resolve keysym XF86ContextMenu
+> Warning:          Could not resolve keysym XF86MediaRepeat
+> Warning:          Could not resolve keysym XF8610ChannelsUp
+> Warning:          Could not resolve keysym XF8610ChannelsDown
+> Warning:          Could not resolve keysym XF86Images
+> Warning:          Could not resolve keysym XF86NotificationCenter
+> Warning:          Could not resolve keysym XF86PickupPhone
+> Warning:          Could not resolve keysym XF86HangupPhone
+> Warning:          Could not resolve keysym XF86Fn
+> Warning:          Could not resolve keysym XF86Fn_Esc
+> Warning:          Could not resolve keysym XF86FnRightShift
+> Warning:          Could not resolve keysym XF86Numeric0
+> Warning:          Could not resolve keysym XF86Numeric1
+> Warning:          Could not resolve keysym XF86Numeric2
+> Warning:          Could not resolve keysym XF86Numeric3
+> Warning:          Could not resolve keysym XF86Numeric4
+> Warning:          Could not resolve keysym XF86Numeric5
+> Warning:          Could not resolve keysym XF86Numeric6
+> Warning:          Could not resolve keysym XF86Numeric7
+> Warning:          Could not resolve keysym XF86Numeric8
+> Warning:          Could not resolve keysym XF86Numeric9
+> Warning:          Could not resolve keysym XF86NumericStar
+> Warning:          Could not resolve keysym XF86NumericPound
+> Warning:          Could not resolve keysym XF86NumericA
+> Warning:          Could not resolve keysym XF86NumericB
+> Warning:          Could not resolve keysym XF86NumericC
+> Warning:          Could not resolve keysym XF86NumericD
+> Warning:          Could not resolve keysym XF86CameraFocus
+> Warning:          Could not resolve keysym XF86WPSButton
+> Warning:          Could not resolve keysym XF86CameraZoomIn
+> Warning:          Could not resolve keysym XF86CameraZoomOut
+> Warning:          Could not resolve keysym XF86CameraUp
+> Warning:          Could not resolve keysym XF86CameraDown
+> Warning:          Could not resolve keysym XF86CameraLeft
+> Warning:          Could not resolve keysym XF86CameraRight
+> Warning:          Could not resolve keysym XF86AttendantOn
+> Warning:          Could not resolve keysym XF86AttendantOff
+> Warning:          Could not resolve keysym XF86AttendantToggle
+> Warning:          Could not resolve keysym XF86LightsToggle
+> Warning:          Could not resolve keysym XF86ALSToggle
+> Warning:          Could not resolve keysym XF86Buttonconfig
+> Warning:          Could not resolve keysym XF86Taskmanager
+> Warning:          Could not resolve keysym XF86Journal
+> Warning:          Could not resolve keysym XF86ControlPanel
+> Warning:          Could not resolve keysym XF86AppSelect
+> Warning:          Could not resolve keysym XF86Screensaver
+> Warning:          Could not resolve keysym XF86VoiceCommand
+> Warning:          Could not resolve keysym XF86Assistant
+> Warning:          Could not resolve keysym XF86BrightnessMin
+> Warning:          Could not resolve keysym XF86BrightnessMax
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrev
+> Warning:          Could not resolve keysym XF86KbdInputAssistNext
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgroup
+> Warning:          Could not resolve keysym XF86KbdInputAssistAccept
+> Warning:          Could not resolve keysym XF86KbdInputAssistCancel
+> Warning:          Could not resolve keysym XF86RightUp
+> Warning:          Could not resolve keysym XF86RightDown
+> Warning:          Could not resolve keysym XF86LeftUp
+> Warning:          Could not resolve keysym XF86LeftDown
+> Warning:          Could not resolve keysym XF86RootMenu
+> Warning:          Could not resolve keysym XF86MediaTopMenu
+> Warning:          Could not resolve keysym XF86Numeric11
+> Warning:          Could not resolve keysym XF86Numeric12
+> Warning:          Could not resolve keysym XF86AudioDesc
+> Warning:          Could not resolve keysym XF863DMode
+> Warning:          Could not resolve keysym XF86NextFavorite
+> Warning:          Could not resolve keysym XF86StopRecord
+> Warning:          Could not resolve keysym XF86PauseRecord
+> Warning:          Could not resolve keysym XF86VOD
+> Warning:          Could not resolve keysym XF86Unmute
+> Warning:          Could not resolve keysym XF86FastReverse
+> Warning:          Could not resolve keysym XF86SlowReverse
+> Warning:          Could not resolve keysym XF86Data
+> Warning:          Could not resolve keysym XF86OnScreenKeyboard
+> Warning:          Could not resolve keysym XF86PrivacyScreenToggle
+> Warning:          Could not resolve keysym XF86SelectiveScreenshot
+> Warning:          Could not resolve keysym XF86Macro1
+> Warning:          Could not resolve keysym XF86Macro2
+> Warning:          Could not resolve keysym XF86Macro3
+> Warning:          Could not resolve keysym XF86Macro4
+> Warning:          Could not resolve keysym XF86Macro5
+> Warning:          Could not resolve keysym XF86Macro6
+> Warning:          Could not resolve keysym XF86Macro7
+> Warning:          Could not resolve keysym XF86Macro8
+> Warning:          Could not resolve keysym XF86Macro9
+> Warning:          Could not resolve keysym XF86Macro10
+> Warning:          Could not resolve keysym XF86Macro11
+> Warning:          Could not resolve keysym XF86Macro12
+> Warning:          Could not resolve keysym XF86Macro13
+> Warning:          Could not resolve keysym XF86Macro14
+> Warning:          Could not resolve keysym XF86Macro15
+> Warning:          Could not resolve keysym XF86Macro16
+> Warning:          Could not resolve keysym XF86Macro17
+> Warning:          Could not resolve keysym XF86Macro18
+> Warning:          Could not resolve keysym XF86Macro19
+> Warning:          Could not resolve keysym XF86Macro20
+> Warning:          Could not resolve keysym XF86Macro21
+> Warning:          Could not resolve keysym XF86Macro22
+> Warning:          Could not resolve keysym XF86Macro23
+> Warning:          Could not resolve keysym XF86Macro24
+> Warning:          Could not resolve keysym XF86Macro25
+> Warning:          Could not resolve keysym XF86Macro26
+> Warning:          Could not resolve keysym XF86Macro27
+> Warning:          Could not resolve keysym XF86Macro28
+> Warning:          Could not resolve keysym XF86Macro29
+> Warning:          Could not resolve keysym XF86Macro30
+> Warning:          Could not resolve keysym XF86MacroRecordStart
+> Warning:          Could not resolve keysym XF86MacroRecordStop
+> Warning:          Could not resolve keysym XF86MacroPresetCycle
+> Warning:          Could not resolve keysym XF86MacroPreset1
+> Warning:          Could not resolve keysym XF86MacroPreset2
+> Warning:          Could not resolve keysym XF86MacroPreset3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu1
+> Warning:          Could not resolve keysym XF86KbdLcdMenu2
+> Warning:          Could not resolve keysym XF86KbdLcdMenu3
+> Warning:          Could not resolve keysym XF86KbdLcdMenu4
+> Warning:          Could not resolve keysym XF86KbdLcdMenu5
+Errors from xkbcomp are not fatal to the X server
+00:00:45.881 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:45.881 [DEBUG] [wlr] [xwayland/xwm.c:1475] unhandled X11 event: MappingNotify (34)
+00:00:45.881 [DEBUG] [wlr] [xwayland/selection/selection.c:147] not handling selection events: no seat assigned to xwayland
+00:00:45.881 [DEBUG] [wlr] [xwayland/xwm.c:1475] unhandled X11 event: MappingNotify (34)
+00:00:46.538 [DEBUG] [sway/ipc-server.c:214] Client 44 hung up
+00:00:46.538 [INFO] [sway/ipc-server.c:565] IPC Client 44 disconnected
+00:00:46.538 [DEBUG] [sway/ipc-server.c:214] Client 41 hung up
+00:00:46.538 [INFO] [sway/ipc-server.c:565] IPC Client 41 disconnected
+00:00:46.538 [DEBUG] [sway/ipc-server.c:214] Client 36 hung up
+00:00:46.538 [INFO] [sway/ipc-server.c:565] IPC Client 36 disconnected
+00:00:46.538 [DEBUG] [sway/ipc-server.c:214] Client 34 hung up
+00:00:46.538 [INFO] [sway/ipc-server.c:565] IPC Client 34 disconnected
+00:00:46.538 [DEBUG] [sway/ipc-server.c:214] Client 27 hung up
+00:00:46.538 [INFO] [sway/ipc-server.c:565] IPC Client 27 disconnected
+00:00:46.538 [DEBUG] [sway/ipc-server.c:214] Client 24 hung up
+00:00:46.538 [INFO] [sway/ipc-server.c:565] IPC Client 24 disconnected

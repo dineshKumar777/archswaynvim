@@ -23,16 +23,12 @@ set tabstop=2 shiftwidth=2
 set smarttab smartindent autoindent
 
 set nobackup noswapfile noundofile
-
 set ignorecase smartcase hlsearch incsearch
-
 set splitbelow splitright
-
 set shortmess+=c
 
 " Format document and go back to orginal line
 map <F7> gg=G<C-o>
-
 
 "Auto source vimrc when saved
 autocmd! bufwritepost $MYVIMRC source $MYVIMRC
@@ -53,12 +49,10 @@ nmap <down> <C-w><down>
 nmap <left> <C-w><left>
 nmap <right> <C-w><right>
 
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 " Neovide requires guifont settings
-set guifont=Hack\ Nerd\ Font:h14
+set guifont=Envy\ Code\ R:h10
 " set guifont=Jetbrains\ Mono:h12
-
 
 " Paste non-linewise text above or below current cursor,
 " see https://stackoverflow.com/a/1346777/6064933
@@ -81,7 +75,7 @@ augroup END
 augroup term_settings
   autocmd!
   autocmd TermOpen * setlocal norelativenumber nonumber
-  autocmd TermOpen * startInsert
+  autocmd TermOpen * startinsert
 augroup END
 
 " Display msg when the current file is not in UTF-8 format
@@ -90,7 +84,6 @@ augroup non_utf8_file_warn
   autocmd BufRead * if &fileencoding != 'utf-8'
           \ | unsilent echomsg 'File not in UTF-8 format!' | endif
 augroup END
-
 
 " https://stackoverflow.com/a/3879737
 " Create command alias safely
@@ -126,20 +119,13 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'kyazdani42/blue-moon'
-Plug 'huyvohcmc/atlas.vim'
-Plug 'fxn/vim-monochrome'
-Plug 'Soares/base16.nvim'
-Plug 'danishprakash/vim-yami'
-Plug 'sstallion/vim-wtf'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'deathlyfrantic/vim-distill'
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'jghauser/mkdir.nvim'
 Plug 'b3nj5m1n/kommentary'
 Plug 'szw/vim-maximizer'
-Plug 'tami5/sql.nvim'
-Plug 'nvim-telescope/telescope-frecency.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'kabouzeid/nvim-lspinstall'
 Plug 'hrsh7th/nvim-compe'
@@ -150,10 +136,11 @@ Plug 'mboughaba/i3config.vim'
 Plug 'windwp/nvim-autopairs'
 Plug 'norcalli/snippets.nvim'
 Plug 'mhartington/formatter.nvim'
+" nvim-toggleterm is optional
 call plug#end()
 
 " Use Shortnames for common vimplug to reduce typing
-let g:plug_window='new'
+let g:plug_window='new' " Open plug window horizontally
 call Cabbrev('pi', 'PlugInstall')
 call Cabbrev('pud', 'PlugUpdate')
 call Cabbrev('pug', 'PlugUpgrade')
@@ -163,10 +150,9 @@ call Cabbrev('pc', 'PlugClean')
 " Default mappings with plugins
 " maximizer => f3
 " kommentry => gcc
+
 set background=dark
-" colorscheme blue-moon
 colorscheme distill
-" let g:lightline = {'colorscheme': 'blue-moon' }
 
 "Clever-f config
 let g:clever_f_across_no_line=1
@@ -183,14 +169,3 @@ require('_autopairs')
 require('_formatter')
 require('mkdir') -- this is for plugin load
 EOF
-
-
-" " Include these into completion.lua config instead of init.vim
-" inoremap <silent><expr> <C-Space> compe#complete()
-" " inoremap <silent><expr> <CR>      compe#confirm('<CR>') "remapped in
-" " completion
-" inoremap <silent><expr> <C-e>     compe#close('<C-e>')
-" inoremap <silent><expr> <C-f>     compe#scroll({ 'delta': +4 })
-" inoremap <silent><expr> <C-d>     compe#scroll({ 'delta': -4 })
-
-" Snippet configuration is pending
