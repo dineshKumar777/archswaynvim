@@ -135,7 +135,7 @@ Plug 'mboughaba/i3config.vim'
 Plug 'windwp/nvim-autopairs'
 Plug 'norcalli/snippets.nvim'
 Plug 'mhartington/formatter.nvim'
-Plug 'lewis6991/gitsigns.nvim'
+" Plug 'lewis6991/gitsigns.nvim'
 " nvim-toggleterm is optional
 call plug#end()
 
@@ -165,7 +165,7 @@ require('_treesitter')
 require('_completion')
 require('_telescope')
 require('_hop')
-require('_gitsigns')
+--require('_gitsigns')
 require('_autopairs')
 require('_formatter')
 require('mkdir') -- this is for plugin load
