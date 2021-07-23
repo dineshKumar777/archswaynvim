@@ -121,7 +121,6 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'deathlyfrantic/vim-distill'
-" Plug 'itchyny/lightline.vim'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'jghauser/mkdir.nvim'
 Plug 'b3nj5m1n/kommentary'
@@ -136,6 +135,7 @@ Plug 'mboughaba/i3config.vim'
 Plug 'windwp/nvim-autopairs'
 Plug 'norcalli/snippets.nvim'
 Plug 'mhartington/formatter.nvim'
+Plug 'lewis6991/gitsigns.nvim'
 " nvim-toggleterm is optional
 call plug#end()
 
@@ -154,7 +154,7 @@ call Cabbrev('pc', 'PlugClean')
 set background=dark
 colorscheme distill
 
-"Clever-f config
+"Clever-f conig
 let g:clever_f_across_no_line=1
 let g:clever_f_smart_case=1
 let g:clever_f_fix_key_direction=1
@@ -165,6 +165,7 @@ require('_treesitter')
 require('_completion')
 require('_telescope')
 require('_hop')
+require('_gitsigns')
 require('_autopairs')
 require('_formatter')
 require('mkdir') -- this is for plugin load
