@@ -21,7 +21,6 @@ endif
 " Indents
 set tabstop=2 shiftwidth=2
 set smarttab smartindent autoindent
-" testing
 
 set nobackup noswapfile noundofile
 set ignorecase smartcase hlsearch incsearch
