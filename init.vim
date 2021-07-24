@@ -15,12 +15,13 @@ set encoding=utf-8
 set clipboard+=unnamedplus
 
 if(has("termguicolors"))
-  set termguicolors
+	set termguicolors
 endif
 
 " Indents
 set tabstop=2 shiftwidth=2
 set smarttab smartindent autoindent
+" testing
 
 set nobackup noswapfile noundofile
 set ignorecase smartcase hlsearch incsearch
@@ -39,6 +40,12 @@ nnoremap <leader>q <cmd>quit<CR>
 nnoremap <leader>x <cmd>:qa!<CR>
 nnoremap <silent> <leader>ev <cmd>:tabnew $MYVIMRC<CR>
 nnoremap <leader><leader> <cmd>:b#<CR>
+
+" http://vimcasts.org/episodes/neovim-terminal-mappings/
+tnoremap <Esc> <C-\><C-n>
+
+" https://superuser.com/a/271024
+set formatoptions-=cro " Disable autoinsert of comments on nextline
 
 nnoremap ; :
 vnoremap ; :
@@ -66,23 +73,23 @@ nnoremap <leader>P m`O<ESC>p``
 
 " Do not use smart case in commandline mode
 augroup dynamic_smartcase
-  autocmd!
-  autocmd CmdLineEnter : set nosmartcase
-  autocmd CmdLineLeave : set smartcase
+	autocmd!
+	autocmd CmdLineEnter : set nosmartcase
+	autocmd CmdLineLeave : set smartcase
 augroup END
 
 " Term settings
 augroup term_settings
-  autocmd!
-  autocmd TermOpen * setlocal norelativenumber nonumber
-  autocmd TermOpen * startinsert
+	autocmd!
+	autocmd TermOpen * setlocal norelativenumber nonumber
+	autocmd TermOpen * startinsert
 augroup END
 
 " Display msg when the current file is not in UTF-8 format
 augroup non_utf8_file_warn
-  autocmd!
-  autocmd BufRead * if &fileencoding != 'utf-8'
-          \ | unsilent echomsg 'File not in UTF-8 format!' | endif
+	autocmd!
+	autocmd BufRead * if &fileencoding != 'utf-8'
+				\ | unsilent echomsg 'File not in UTF-8 format!' | endif
 augroup END
 
 " https://stackoverflow.com/a/3879737
@@ -99,14 +106,14 @@ fun! HasColorscheme(name) abort
 	return !empty(globpath(&runtimepath, l:pat))
 endfun
 
-"https://dmerej.info/blog/post/vim-cwd-and-neovim/
+" https://dmerej.info/blog/post/vim-cwd-and-neovim/
 function! OnTabEnter(path)
-  if isdirectory(a:path)
-    let dirname = a:path
-  else
-    let dirname = fnamemodify(a:path, ":h")
-  endif
-  execute "tcd ". dirname
+	if isdirectory(a:path)
+		let dirname = a:path
+	else
+		let dirname = fnamemodify(a:path, ":h")
+	endif
+	execute "tcd ". dirname
 endfunction()
 
 autocmd TabNewEntered * call OnTabEnter(expand("<amatch>"))
@@ -114,7 +121,6 @@ autocmd TabNewEntered * call OnTabEnter(expand("<amatch>"))
 """"""""""""""""""""""""""""""""""""""""""""""""
 " 	PLUGINS
 """"""""""""""""""""""""""""""""""""""""""""""""
-" call plug#begin('~/.local/share/nvim/plugged')
 call plug#begin('~/.config/nvim/plugged')
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
@@ -135,8 +141,7 @@ Plug 'mboughaba/i3config.vim'
 Plug 'windwp/nvim-autopairs'
 Plug 'norcalli/snippets.nvim'
 Plug 'mhartington/formatter.nvim'
-" Plug 'lewis6991/gitsigns.nvim'
-" nvim-toggleterm is optional
+Plug 'akinsho/nvim-toggleterm.lua'
 call plug#end()
 
 " Use Shortnames for common vimplug to reduce typing
@@ -165,8 +170,8 @@ require('_treesitter')
 require('_completion')
 require('_telescope')
 require('_hop')
---require('_gitsigns')
 require('_autopairs')
 require('_formatter')
+require('_toggleterm')
 require('mkdir') -- this is for plugin load
 EOF
