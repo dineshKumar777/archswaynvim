@@ -141,6 +141,7 @@ Plug 'windwp/nvim-autopairs'
 Plug 'norcalli/snippets.nvim'
 Plug 'mhartington/formatter.nvim'
 Plug 'akinsho/nvim-toggleterm.lua'
+Plug 'abecodes/tabout.nvim'
 call plug#end()
 
 " Use Shortnames for common vimplug to reduce typing
@@ -172,5 +173,6 @@ require('_hop')
 require('_autopairs')
 require('_formatter')
 require('_toggleterm')
+require('_tabout')
 require('mkdir') -- this is for plugin load
 EOF

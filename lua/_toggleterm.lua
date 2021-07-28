@@ -1,4 +1,5 @@
 vim.api.nvim_set_keymap("n", "<f9>", ":ToggleTermOpenAll<CR>", {noremap = true, silent = true})
+vim.api.nvim_set_keymap("n", "<f10>", ":ToggleTermCloseAll<CR>", {noremap = true, silent = true})
 vim.api.nvim_set_keymap("t", "<f10>", "<C-\\><C-n>:ToggleTermCloseAll<CR>", {noremap = true, silent = true})
 
 require("toggleterm").setup {
