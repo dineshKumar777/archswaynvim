@@ -5,7 +5,7 @@ local M = {}
 
 _telescope.setup {
   defaults = {
-    file_ignore_patterns = {"plugged", "node_modules"}
+    file_ignore_patterns = {"plugged", "node_modules", "bin", "obj"}
   },
   extensions = {
     fzf = {
