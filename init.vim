@@ -40,6 +40,14 @@ nnoremap <leader>x <cmd>:qa!<CR>
 nnoremap <silent> <leader>ev <cmd>:tabnew $MYVIMRC<CR>
 nnoremap <leader><leader> <cmd>:b#<CR>
 
+" Mapping to move lines
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
+
 " http://vimcasts.org/episodes/neovim-terminal-mappings/
 tnoremap <Esc> <C-\><C-n>
 
@@ -176,3 +184,10 @@ require('_toggleterm')
 require('_tabout')
 require('mkdir') -- this is for plugin load
 EOF
+
+" Chsarp autoformat on filesave. Have to find replacement using formatter
+" plugin
+autocmd BufWritePre *.cs lua vim.lsp.buf.formatting_sync(nil,100)
+
+" Execute c# code in cmd on keypress
+nnoremap <F8> <cmd>TermExec cmd='dotnet run'<CR>
