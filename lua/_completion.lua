@@ -1,4 +1,5 @@
-vim.o.completeopt = "menuone,noselect,noinsert"
+-- vim.o.completeopt = "menuone,noselect,noinsert"
+vim.o.completeopt = "noselect,noinsert"
 vim.o.pumheight = 10
 
 require "compe".setup {
