@@ -150,7 +150,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'deathlyfrantic/vim-distill'
-Plug 'norcalli/nvim-colorizer.lua'
+" Plug 'norcalli/nvim-colorizer.lua'
 Plug 'jghauser/mkdir.nvim'
 Plug 'b3nj5m1n/kommentary'
 Plug 'szw/vim-maximizer'
@@ -166,6 +166,9 @@ Plug 'norcalli/snippets.nvim'
 Plug 'mhartington/formatter.nvim'
 Plug 'akinsho/nvim-toggleterm.lua'
 Plug 'abecodes/tabout.nvim'
+Plug 'romainl/vim-cool' " turn off hlsearch when done
+" Plug 'psliwka/vim-smoothie'
+Plug 'karb94/neoscroll.nvim'
 call plug#end()
 
 " Use Shortnames for common vimplug to reduce typing
@@ -188,6 +191,9 @@ let g:clever_f_across_no_line=1
 let g:clever_f_smart_case=1
 let g:clever_f_fix_key_direction=1
 
+"Smoothscroll
+let g:smoothie_enabled=1
+
 lua << EOF
 require('_lsp')
 require('_treesitter')
@@ -198,6 +204,7 @@ require('_autopairs')
 require('_formatter')
 require('_toggleterm')
 require('_tabout')
+require('_neoscroll')
 require('mkdir') -- this is for plugin load
 EOF
 
