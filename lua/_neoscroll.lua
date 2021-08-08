@@ -23,9 +23,9 @@ require("neoscroll").setup(
   }
 )
 
-local t = {}
+--[[ local t = {}
 
 t["gg"] = {"scroll", {"-2*vim.api.nvim_buf_line_count(0)", "true", "1", "5"}}
 t["G"] = {"scroll", {"2*vim.api.nvim_buf_line_count(0)", "true", "1", "5"}}
 
-require("neoscroll.config").set_mappings(t)
+require("neoscroll.config").set_mappings(t) ]]
