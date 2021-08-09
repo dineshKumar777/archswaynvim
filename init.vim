@@ -43,6 +43,9 @@ set ignorecase smartcase hlsearch incsearch
 set splitbelow splitright
 set shortmess+=c
 
+filetype plugin indent on
+autocmd FileType * setlocal formatoptions-=cro
+
 " Format document and go back to orginal line
 map <F7> gg=G<C-o>
 
@@ -209,3 +212,11 @@ autocmd BufWritePre *.cs lua vim.lsp.buf.formatting_sync(nil,100)
 
 " Execute c# code in cmd on keypress
 nnoremap <F8> <cmd>TermExec cmd='dotnet run'<CR>
+nnoremap <F9> <cmd>TermExec cmd='cargo run'<CR>
+
+
+" TODO
+" Fix snippet integration
+" Find plugin for auto semicolon
+" Lua profiling
+" tabout find solution when one compe result available 
