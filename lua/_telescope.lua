@@ -13,11 +13,20 @@ _telescope.setup {
       override_generic_sorter = true,
       override_file_sorter = true,
       case_mode = "smart_case"
+    },
+    project = {
+      base_dirs = {
+        {"~/neovide"},
+        {path = "~/.config/nvim"}
+      },
+      hidden_files = true,
+      display_type = "full"
     }
   }
 }
 
 _telescope.load_extension("fzf")
+_telescope.load_extension("project")
 
 M.project_files = function()
   local _, ret, _ =
@@ -47,5 +56,6 @@ vim.api.nvim_set_keymap(
   {noremap = true, silent = true}
 )
 vim.api.nvim_set_keymap("n", "<leader>/", ":Telescope current_buffer_fuzzy_find<CR>", {noremap = true, silent = true})
+-- vim.api.nvim_set_keymap("n", "<leader>p", ":Telescope project<CR>", {noremap = true, silent = true})
 
 return M

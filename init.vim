@@ -152,6 +152,7 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+Plug 'nvim-telescope/telescope-project.nvim'
 Plug 'deathlyfrantic/vim-distill'
 Plug 'jghauser/mkdir.nvim'
 Plug 'b3nj5m1n/kommentary'
@@ -159,13 +160,21 @@ Plug 'szw/vim-maximizer'
 Plug 'neovim/nvim-lspconfig'
 Plug 'kabouzeid/nvim-lspinstall'
 Plug 'hrsh7th/nvim-compe'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-buffer'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'rhysd/clever-f.vim'
 Plug 'phaazon/hop.nvim'
 Plug 'mboughaba/i3config.vim'
 Plug 'windwp/nvim-autopairs'
-Plug 'norcalli/snippets.nvim'
+Plug 'rafamadriz/friendly-snippets'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/vim-vsnip-integ'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-vsnip'
 Plug 'mhartington/formatter.nvim'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'akinsho/nvim-toggleterm.lua'
 Plug 'abecodes/tabout.nvim'
 Plug 'romainl/vim-cool' " turn off hlsearch when done
@@ -195,7 +204,8 @@ let g:clever_f_fix_key_direction=1
 lua << EOF
 require('_lsp')
 require('_treesitter')
-require('_completion')
+--require('_completion') -- nvim-comp is deprecate. leaving for reference
+require('_nvimcmp')
 require('_telescope')
 require('_hop')
 require('_autopairs')
@@ -208,7 +218,7 @@ EOF
 
 " Chsarp autoformat on filesave. Have to find replacement using formatter
 " plugin
-autocmd BufWritePre *.cs lua vim.lsp.buf.formatting_sync(nil,100)
+autocmd BufWritePre *.cs,*.js lua vim.lsp.buf.formatting_sync(nil,100)
 
 " Execute c# code in cmd on keypress
 nnoremap <F8> <cmd>TermExec cmd='dotnet run'<CR>
@@ -216,7 +226,29 @@ nnoremap <F9> <cmd>TermExec cmd='cargo run'<CR>
 
 
 " TODO
-" Fix snippet integration
 " Find plugin for auto semicolon
 " Lua profiling
 " tabout find solution when one compe result available 
+
+" SNIPPET configuration
+" Expand
+imap <expr> <C-j>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+smap <expr> <C-j>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+
+" Expand or jump
+imap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+smap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+
+" TODO
+" Jump forward or backward -> this binding causes tabout not working
+imap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+smap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+imap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+smap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+
+" " Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
+" " See https://github.com/hrsh7th/vim-vsnip/pull/50
+" nmap        s   <Plug>(vsnip-select-text)
+" xmap        s   <Plug>(vsnip-select-text)
+" nmap        S   <Plug>(vsnip-cut-text)
+" xmap        S   <Plug>(vsnip-cut-text)
