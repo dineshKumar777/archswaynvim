@@ -148,37 +148,37 @@ autocmd TabNewEntered * call OnTabEnter(expand("<amatch>"))
 " 	PLUGINS
 """"""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.config/nvim/plugged')
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
-Plug 'nvim-telescope/telescope-project.nvim'
-Plug 'deathlyfrantic/vim-distill'
-Plug 'jghauser/mkdir.nvim'
+Plug 'abecodes/tabout.nvim'
+Plug 'akinsho/nvim-toggleterm.lua'
 Plug 'b3nj5m1n/kommentary'
-Plug 'szw/vim-maximizer'
-Plug 'neovim/nvim-lspconfig'
-Plug 'kabouzeid/nvim-lspinstall'
-Plug 'hrsh7th/nvim-compe'
-Plug 'hrsh7th/nvim-cmp'
+Plug 'residualmind/vim-distill' " this is a fork of original colorscheme
+" Plug 'norcalli/nvim-colorizer.lua' " Enable this when necessary
 Plug 'hrsh7th/cmp-buffer'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'rhysd/clever-f.vim'
-Plug 'phaazon/hop.nvim'
-Plug 'mboughaba/i3config.vim'
-Plug 'windwp/nvim-autopairs'
-Plug 'rafamadriz/friendly-snippets'
-Plug 'hrsh7th/vim-vsnip'
-Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-vsnip'
-Plug 'mhartington/formatter.nvim'
+Plug 'hrsh7th/nvim-cmp'
+" Plug 'hrsh7th/nvim-compe'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
-Plug 'akinsho/nvim-toggleterm.lua'
-Plug 'abecodes/tabout.nvim'
-Plug 'romainl/vim-cool' " turn off hlsearch when done
+Plug 'jghauser/mkdir.nvim'
+Plug 'kabouzeid/nvim-lspinstall'
 Plug 'karb94/neoscroll.nvim'
+Plug 'mboughaba/i3config.vim'
+Plug 'mhartington/formatter.nvim'
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+Plug 'nvim-telescope/telescope-project.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'phaazon/hop.nvim'
+Plug 'rafamadriz/friendly-snippets'
+Plug 'rhysd/clever-f.vim'
+Plug 'romainl/vim-cool' " turn off hlsearch when done
+Plug 'szw/vim-maximizer'
+Plug 'windwp/nvim-autopairs'
+Plug 'windwp/nvim-ts-autotag'
 call plug#end()
 
 " Use Shortnames for common vimplug to reduce typing
@@ -204,7 +204,7 @@ let g:clever_f_fix_key_direction=1
 lua << EOF
 require('_lsp')
 require('_treesitter')
---require('_completion') -- nvim-comp is deprecate. leaving for reference
+--require('_completion') -- nvim-comp is deprecated. leaving now for reference
 require('_nvimcmp')
 require('_telescope')
 require('_hop')
@@ -214,6 +214,7 @@ require('_toggleterm')
 require('_tabout')
 require('_neoscroll')
 require('mkdir') -- this is for plugin load
+--require('colorizer').setup()
 EOF
 
 " Chsarp autoformat on filesave. Have to find replacement using formatter
@@ -227,8 +228,11 @@ nnoremap <F9> <cmd>TermExec cmd='cargo run'<CR>
 
 " TODO
 " Find plugin for auto semicolon
+" Add HTML and React support
 " Lua profiling
 " tabout find solution when one compe result available 
+" Lsp is not working for single file. nvim-lspconfig requires project specific.
+" vsnip causes nvim freeze with tabout. switch to some other snippet source
 
 " SNIPPET configuration
 " Expand
@@ -240,11 +244,11 @@ imap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l
 smap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " TODO
-" Jump forward or backward -> this binding causes tabout not working
-imap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-smap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-imap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-smap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+" " Jump forward or backward -> this binding causes tabout not working
+" imap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+" smap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+" imap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+" smap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 
 " " Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
 " " See https://github.com/hrsh7th/vim-vsnip/pull/50

@@ -29,10 +29,10 @@ cmp.setup {
         behavior = cmp.ConfirmBehavior.Insert,
         select = true
       }
-    )
-    -- TODO INVESTIGATE
-    -- Following binding causes vim to freeze when enabled with tabout and vsnip.
-    --[[ ["<Tab>"] = function(fallback)
+    ),
+    -- TODO
+    -- when tab binding enabled for both vsnip and cmp it causes nvim freeze when combined with tabout
+    ["<Tab>"] = function(fallback)
       if vim.fn.pumvisible() == 1 then
         vim.fn.feedkeys(vim.api.nvim_replace_termcodes("<C-n>", true, true, true), "n")
       elseif vim.fn["vsnip#available"]() == 1 then
@@ -49,7 +49,7 @@ cmp.setup {
       else
         fallback()
       end
-    end ]]
+    end
   },
   -- You should specify your *installed* sources.
   sources = {
@@ -57,6 +57,9 @@ cmp.setup {
     {name = "nvim_lua"},
     {name = "path"},
     {name = "vsnip"}
+  },
+  experimental = {
+    ghost_text = false
   }
 }
 

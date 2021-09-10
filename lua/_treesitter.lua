@@ -10,5 +10,9 @@ require("nvim-treesitter.configs").setup {
   },
   autopairs = {
     enable = true
+  },
+  autotag = {
+    --this require nvim-ts-autotag plugin
+    enable = true
   }
 }
