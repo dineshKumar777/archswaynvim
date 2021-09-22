@@ -151,6 +151,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'abecodes/tabout.nvim'
 Plug 'akinsho/nvim-toggleterm.lua'
 Plug 'b3nj5m1n/kommentary'
+Plug 'folke/trouble.nvim'
 Plug 'residualmind/vim-distill' " this is a fork of original colorscheme
 " Plug 'norcalli/nvim-colorizer.lua' " Enable this when necessary
 Plug 'hrsh7th/cmp-buffer'
@@ -213,6 +214,7 @@ require('_formatter')
 require('_toggleterm')
 require('_tabout')
 require('_neoscroll')
+require('_trouble')
 require('mkdir') -- this is for plugin load
 --require('colorizer').setup()
 EOF
