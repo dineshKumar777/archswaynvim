@@ -148,17 +148,16 @@ autocmd TabNewEntered * call OnTabEnter(expand("<amatch>"))
 " 	PLUGINS
 """"""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.config/nvim/plugged')
+" Plug 'hrsh7th/nvim-compe'
+" Plug 'norcalli/nvim-colorizer.lua' " Enable this when necessary
 Plug 'abecodes/tabout.nvim'
 Plug 'akinsho/nvim-toggleterm.lua'
 Plug 'b3nj5m1n/kommentary'
 Plug 'folke/trouble.nvim'
-Plug 'residualmind/vim-distill' " this is a fork of original colorscheme
-" Plug 'norcalli/nvim-colorizer.lua' " Enable this when necessary
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/nvim-cmp'
-" Plug 'hrsh7th/nvim-compe'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'jghauser/mkdir.nvim'
@@ -175,11 +174,13 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'phaazon/hop.nvim'
 Plug 'rafamadriz/friendly-snippets'
+Plug 'residualmind/vim-distill' " this is a fork of original colorscheme
 Plug 'rhysd/clever-f.vim'
 Plug 'romainl/vim-cool' " turn off hlsearch when done
 Plug 'szw/vim-maximizer'
 Plug 'windwp/nvim-autopairs'
 Plug 'windwp/nvim-ts-autotag'
+Plug 'beauwilliams/focus.nvim'
 call plug#end()
 
 " Use Shortnames for common vimplug to reduce typing
@@ -215,6 +216,7 @@ require('_toggleterm')
 require('_tabout')
 require('_neoscroll')
 require('_trouble')
+require('_focus')
 require('mkdir') -- this is for plugin load
 --require('colorizer').setup()
 EOF
@@ -225,7 +227,7 @@ autocmd BufWritePre *.cs,*.js lua vim.lsp.buf.formatting_sync(nil,100)
 
 " Execute c# code in cmd on keypress
 nnoremap <F8> <cmd>TermExec cmd='dotnet run'<CR>
-nnoremap <F9> <cmd>TermExec cmd='cargo run'<CR>
+nnoremap <F9> <cmd>TermExec cmd='npm start'<CR>
 
 
 " TODO
