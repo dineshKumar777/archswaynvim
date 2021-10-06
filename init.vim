@@ -21,7 +21,7 @@ set number
 set title
 set mouse=a
 set hidden
-set lazyredraw
+" set lazyredraw "Neovide issue
 set updatetime=250
 set scrolloff=5
 set history=100
@@ -148,11 +148,10 @@ autocmd TabNewEntered * call OnTabEnter(expand("<amatch>"))
 " 	PLUGINS
 """"""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.config/nvim/plugged')
-" Plug 'hrsh7th/nvim-compe'
-" Plug 'norcalli/nvim-colorizer.lua' " Enable this when necessary
 Plug 'abecodes/tabout.nvim'
 Plug 'akinsho/nvim-toggleterm.lua'
 Plug 'b3nj5m1n/kommentary'
+Plug 'beauwilliams/focus.nvim'
 Plug 'folke/trouble.nvim'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -180,7 +179,6 @@ Plug 'romainl/vim-cool' " turn off hlsearch when done
 Plug 'szw/vim-maximizer'
 Plug 'windwp/nvim-autopairs'
 Plug 'windwp/nvim-ts-autotag'
-Plug 'beauwilliams/focus.nvim'
 call plug#end()
 
 " Use Shortnames for common vimplug to reduce typing
@@ -206,7 +204,6 @@ let g:clever_f_fix_key_direction=1
 lua << EOF
 require('_lsp')
 require('_treesitter')
---require('_completion') -- nvim-comp is deprecated. leaving now for reference
 require('_nvimcmp')
 require('_telescope')
 require('_hop')
@@ -218,12 +215,11 @@ require('_neoscroll')
 require('_trouble')
 require('_focus')
 require('mkdir') -- this is for plugin load
---require('colorizer').setup()
 EOF
 
 " Chsarp autoformat on filesave. Have to find replacement using formatter
 " plugin
-autocmd BufWritePre *.cs,*.js lua vim.lsp.buf.formatting_sync(nil,100)
+autocmd BufWritePre *.cs,*.js,*.ts,*.tsx lua vim.lsp.buf.formatting_sync(nil,100)
 
 " Execute c# code in cmd on keypress
 nnoremap <F8> <cmd>TermExec cmd='dotnet run'<CR>
@@ -260,3 +256,7 @@ smap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l
 " xmap        s   <Plug>(vsnip-select-text)
 " nmap        S   <Plug>(vsnip-cut-text)
 " xmap        S   <Plug>(vsnip-cut-text)
+" nnoremap <C-K> :echo 'hi'<cr>
+" nnoremap <A-left> :echo 'left'<cr>
+nnoremap <c-s-k> :echo 'hi'<cr>
+nnoremap <d-left> :echo 'hi'<cr>

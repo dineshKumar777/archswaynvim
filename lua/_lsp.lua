@@ -1,6 +1,5 @@
 -- nvim-lspconfig configuration
 -- https://github.com/kabouzeid/nvim-lspinstall/wiki
-
 local nvim_lsp = require("lspconfig")
 
 local on_attach = function(client, bufnr)
