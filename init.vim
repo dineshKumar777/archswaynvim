@@ -84,7 +84,7 @@ nmap <right> <C-w><right>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 " Neovide requires guifont settings
-set guifont=Envy\ Code\ R:h10
+" set guifont=Envy\ Code\ R:h10
 " set guifont=Jetbrains\ Mono:h12
 
 " Paste non-linewise text above or below current cursor,
@@ -214,6 +214,7 @@ require('_tabout')
 require('_neoscroll')
 require('_trouble')
 require('_focus')
+require('_neovide')
 require('mkdir') -- this is for plugin load
 EOF
 
