@@ -179,6 +179,11 @@ Plug 'romainl/vim-cool' " turn off hlsearch when done
 Plug 'szw/vim-maximizer'
 Plug 'windwp/nvim-autopairs'
 Plug 'windwp/nvim-ts-autotag'
+Plug 'antoinemadec/FixCursorHold.nvim'
+Plug 'lewis6991/gitsigns.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'famiu/feline.nvim'
+Plug 'gelguy/wilder.nvim', { 'do': ':UpdateRemotePlugins' }
 call plug#end()
 
 " Use Shortnames for common vimplug to reduce typing
@@ -201,6 +206,8 @@ let g:clever_f_across_no_line=1
 let g:clever_f_smart_case=1
 let g:clever_f_fix_key_direction=1
 
+let g:cursorhold_updatetime=100
+
 lua << EOF
 require('_lsp')
 require('_treesitter')
@@ -215,6 +222,8 @@ require('_neoscroll')
 require('_trouble')
 require('_focus')
 require('_neovide')
+require('_feline')
+require('gitsigns').setup()
 require('mkdir') -- this is for plugin load
 EOF
 
@@ -243,4 +252,19 @@ smap <expr> <C-j>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j
 " Expand or jump
 imap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 smap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+
+" wilder plugin config
+call wilder#setup({'modes': [':', '/', '?']})
+
+call wilder#set_option('pipeline', [
+      \   wilder#branch(
+      \     wilder#cmdline_pipeline(),
+      \     wilder#search_pipeline(),
+      \   ),
+      \ ])
+
+call wilder#set_option('renderer', wilder#wildmenu_renderer({
+      \ 'highlighter': wilder#basic_highlighter(),
+      \ }))
+
 

@@ -1,6 +1,6 @@
 require("focus").setup(
   {
-    winhighlight = true
+    winhighlight = false
   }
 )
 
