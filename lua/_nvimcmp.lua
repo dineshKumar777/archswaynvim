@@ -63,14 +63,11 @@ cmp.setup {
     {name = "vsnip"}
   },
   experimental = {
-    ghost_text = false
+    ghost_text = false,
+    native_menu = false
   }
 }
 
 -- autopairs integration
-require("nvim-autopairs.completion.cmp").setup(
-  {
-    map_cr = true, --  map <CR> on insert mode
-    map_complete = false -- it will auto insert `(` after select function or method item
-  }
-)
+local cmp_autopairs = require("nvim-autopairs.completion.cmp")
+cmp.event:on("confirm_done", cmp_autopairs.on_confirm_done({map_char = {tex = ""}}))
